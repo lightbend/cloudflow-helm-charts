@@ -27,8 +27,6 @@ cloudflow_operator:
   ## JVM command line options
   jvm:
     opts: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap
-  # PVC configuration
-  persistentStorageClass: ""
 
 strimzi:
   enabled: true 
