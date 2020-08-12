@@ -23,7 +23,7 @@ For external Kafka clusters, the user will have to create the application topics
     helm repo update
     helm install lightbend/cloudflow --namespace cloudflow --name cloudflow --set key=value[,key=value]
 
->NOTE! You will need to customize the Helm chart configuration values. Please refer to the `Cofiguration` chapter below for details on this.
+>NOTE! You will need to customize the Helm chart configuration values. Please refer to the `Configuration` chapter below for details on this.
 
 ## Configuration
 
