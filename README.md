@@ -31,8 +31,8 @@ The chart can be customized using the following configurable parameters:
 
 | Parameter                       | Description                                                     | Default                      |
 | ------------------------------- | ----------------------------------------------------------------| -----------------------------|
-| `cloudflow_operator.persistentStorageClass` | The name of the storage class of the per application PVC created by the Cloudflow operator when deploying an application  brokers and Zookeeper nodes. This should be a `ReadWriteMany` storage class. | ""  |
-| `strimzi.enabled`| Enables the use of the Strimzi                                  | false  |
+| `cloudflow_operator.persistentStorageClass` | The name of the storage class that is used when creating a PVC for an application that requires state or checkpoint management, which is only used by Flink and Spark. This must be a `ReadWriteMany` storage class. | ""  |
+| `strimzi.enabled`| Enables the use of Strimzi                                  | false  |
 | `strimzi.persistentStorageClass` | The name of the storage class to be used by Kafka brokers and Zookeeper nodes. This should be a `ReadWriteOnce` storage class.                                   | ""  |
 | `strimzi.topicOperatorNamespace` | The namespace where the Strimzi topic operator is installed. | "cloudflow"  |
 
