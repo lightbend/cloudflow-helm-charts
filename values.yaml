@@ -1,0 +1,62 @@
+cloudflow_operator:
+  version: "2.0.7"
+  name: "cloudflow-operator"
+  persistentStorageClass: standard
+  kafkaBootstrapservers: cloudflow-strimzi-kafka-bootstrap.cloudflow:9092
+  image: 
+    name: lightbend/cloudflow-operator
+    pullPolicy: "IfNotPresent"
+  resources:
+    requests:
+      cpu: "0.1"
+      memory: "256M"
+    limits:
+      cpu: "0.5"
+      memory: "512M"
+  ## Akka runner settings
+  akkaRunner:
+    requestsMemory: "128M"
+    requestsCpu: "0.5"
+    limitsMemory: "2048M"
+  sparkDriver:
+    requestsCpu: "0.5"
+    requestsMemory: "512M"
+  sparkExecutor:
+    requestsCpu: "1"
+    requestsMemory: "2G"
+  ## JVM command line options
+  jvm:
+    opts: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap
+  # PVC configuration
+  persistentStorageClass: ""
+
+strimzi:
+  enabled: true 
+  name: "cloudflow-strimzi"
+  namespace: "cloudflow"
+  version: ""
+  clusterOperatorNamespace: ""
+  topicOperatorNamespace: ""
+  deletePersistentVolumeClaimsOnDelete: false
+  kafka:
+    version: 2.4.0
+    config:
+      offsets.topic.replication.factor: 3
+      transaction.state.log.replication.factor: 3
+      transaction.state.log.min.isr: 2
+      log.retention.hours: -1
+      log.retention.bytes: 112197632
+      auto.create.topics.enable: false
+      log.message.format.version: "2.3"
+    replicas: 3
+    resources: {}
+    persistentVolumeClaimSize: 1Gi
+  zookeeper:
+    replicas: 3
+    resources: {}
+    persistentVolumeClaimSize: 1Gi
+  entityOperator:
+    topicOperator:
+      resources: {}
+  standaloneTopicOperator:
+    resources: {}

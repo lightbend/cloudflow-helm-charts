@@ -1,0 +1,23 @@
+{{- define "cloudflow.labels" }}
+app.kubernetes.io/version: {{.Values.cloudflow_operator.version}}
+cloudflow.lightbend.com/release-version: {{ .Chart.Version }}
+cloudflow.lightbend.com/build-number: {{.Values.cloudflow_operator.version}}
+{{- end }}
+
+{{/* Generate basic labels */}}
+{{- define "kafka.operator.labels" }}
+app.kubernetes.io/managed-by: helm
+app.kubernetes.io/version: {{ .Values.cloudflow_operator.version }}
+{{- if .Values.podLabels}}
+{{ toYaml .Values.podLabels }}
+{{- end }}
+{{- end }}
+
+{{/* Cloudflow Strimzi cluster name */}}
+{{- define "operator.strimziClusterName" }}
+{{- if eq .Values.kafka.mode "External" }}
+{{- printf "external-kafka" }}
+{{- else }}
+{{- required "Strimzi Kafka cluster name cannot be empty" .Values.kafka.strimzi.name }}
+{{- end }}
+{{- end }}
