@@ -18,9 +18,10 @@ For external Kafka clusters, the user will have to create the application topics
 
 ## Installing
 
-    helm repo add lightbend-helm-charts https://repo.lightbend.com/helm-charts/
-    helm repo update
-    helm install lightbend/cloudflow --namespace cloudflow --name cloudflow --set key=value[,key=value]
+Currently, this Helm chart is not published in a Helm repository, so in order to install it, you first have to clone this git repository and execute the following commands from the root for the git repository:
+
+    kubectl create ns cloudflow
+    helm install . --namespace cloudflow --name cloudflow --set key=value[,key=value]
 
 >NOTE! You will need to customize the Helm chart configuration values. Please refer to the `Cofiguration` chapter below for details on this.
 
