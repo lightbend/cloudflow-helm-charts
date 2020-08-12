@@ -29,12 +29,11 @@ cloudflow_operator:
     opts: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap
 
 strimzi:
-  enabled: true 
+  enabled: false 
   name: "cloudflow-strimzi"
-  namespace: "cloudflow"
   version: ""
   clusterOperatorNamespace: ""
-  topicOperatorNamespace: ""
+  topicOperatorNamespace: "cloudflow"
   deletePersistentVolumeClaimsOnDelete: false
   kafka:
     version: 2.4.0

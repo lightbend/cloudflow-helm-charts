@@ -32,12 +32,10 @@ spec:
               memory: {{ required "Max pod memory must be set" .Values.cloudflow_operator.resources.limits.memory }}
               cpu: {{ required "Max pod cpu must be set" .Values.cloudflow_operator.resources.limits.cpu }}
           env:
-{{ if .Values.strimzi.enabled }}
             - name: KAFKA_STRIMZI_CLUSTER_NAME
               value: "{{.Values.strimzi.name}}"
             - name: KAFKA_STRIMZI_TOPIC_OPERATOR_NAMESPACE
-              value: "{{.Values.strimzi.namespace}}"
-{{ end }}
+              value: "{{.Values.strimzi.topicOperatorNamespace}}"
             - name: KAFKA_BOOTSTRAP_SERVERS
               value: "{{.Values.cloudflow_operator.kafkaBootstrapservers}}"
             - name: PERSISTENT_STORAGE_CLASS
