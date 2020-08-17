@@ -5,7 +5,7 @@ Cloudflow enables you to quickly develop, orchestrate, and operate distributed s
 More information about Cloudflow can be found here:
 https://www.lightbend.com/cloudflow-by-lightbend
 
-## Pre-requisites
+## Prerequisites
 
 - Helm, version 3 or higher.
 
