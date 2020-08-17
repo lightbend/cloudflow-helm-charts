@@ -13,6 +13,6 @@ $ helm repo update
 
 ## More information
 
-Cloudflow is an open source project supported by Lightend, for more information visit the following link:
+Cloudflow is an open source project supported by Lightbend, for more information visit the following link:
 
 https://www.lightbend.com/cloudflow-by-lightbend
