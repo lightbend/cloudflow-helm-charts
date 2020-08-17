@@ -8,7 +8,6 @@ https://www.lightbend.com/cloudflow-by-lightbend
 ## Pre-requisites
 
 - Helm, version 3 or higher.
-- Kafka cluster
 
 For evaluation purposes, we recommend using the Strimzi Kafka operator. If Strimzi is used, Cloudflow can create Kafka topics automatically.
 
