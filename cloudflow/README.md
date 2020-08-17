@@ -13,7 +13,7 @@ For evaluation purposes, we recommend using the Strimzi Kafka operator. If Strim
 
 https://strimzi.io
 
-For external Kafka clusters, the user will have to create the application topics themselves before deploying the application.
+For external Kafka clusters, you will have to create the application topics before deploying the application.
 
 ## Installing
 
