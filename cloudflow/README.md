@@ -17,7 +17,7 @@ For external Kafka clusters, the user will have to create the application topics
 
 ## Installing
 
-To install the Cloudflow, execute the following commands:
+Execute the following commands to install Cloudflow:
 
 ```
 $ helm repo add cloudflow-helm-charts https://github.com/lightbend/cloudflow-helm-charts 
