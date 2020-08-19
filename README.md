@@ -7,7 +7,7 @@ This repository contains Helm charts for the [Cloudflow](https://cloudflow.io) p
 Add this repository using the following commands:
 
 ```
-$ helm repo add cloudflow-helm-charts https://github.com/lightbend/cloudflow-helm-charts 
+$ helm repo add cloudflow https://lightbend.github.io/cloudflow-helm-charts/ 
 $ helm repo update
 ```
 
