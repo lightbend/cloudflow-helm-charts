@@ -2,7 +2,7 @@ cloudflow_operator:
   version: "2.0.7"
   name: "cloudflow-operator"
   persistentStorageClass: standard
-  kafkaBootstrapservers: cloudflow-strimzi-kafka-bootstrap.cloudflow:9092
+  kafkaBootstrapservers:
   image: 
     name: lightbend/cloudflow-operator
     pullPolicy: "IfNotPresent"

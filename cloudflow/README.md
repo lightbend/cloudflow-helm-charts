@@ -36,9 +36,7 @@ The chart can be customized using the following configurable parameters:
 | Parameter                       | Description                                                     | Default                      |
 | ------------------------------- | ----------------------------------------------------------------| -----------------------------|
 | `cloudflow_operator.persistentStorageClass` | The name of the storage class for workloads requiring ReadWriteMany persistent volumes. Examples of these workloads are Spark and Flink checkpointing and savepointing. This must be a `ReadWriteMany` storage class. | ""  |
-| `strimzi.enabled`| Enables the use of Strimzi                                  | false  |
-| `strimzi.persistentStorageClass` | The name of the storage class to be used by Kafka brokers and Zookeeper nodes. This should be a `ReadWriteOnce` storage class.                                   | ""  |
-| `strimzi.topicOperatorNamespace` | The namespace where the Strimzi topic operator is installed. | "cloudflow"  |
+| `cloudflow_operator.kafkaBootstrapservers` | The address and port of the Kafka cluster that Cloudflow will use. | ""  |
 
 Specify parameters using `--set key=value[,key=value]` argument to `helm install`
 
