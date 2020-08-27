@@ -24,7 +24,7 @@ Execute the following commands to install Cloudflow:
 $ helm repo add cloudflow-helm-charts https://lightbend.github.io/cloudflow-helm-charts/ 
 $ helm repo update
 $ kubectl create ns cloudflow
-$ helm install cloudflow-helm-charts/cloudflow --namespace cloudflow --name cloudflow --set key=value[,key=value]
+$ helm install cloudflow cloudflow --namespace cloudflow --name cloudflow --set key=value[,key=value]
 ```
 
 >NOTE! You will need to customize the Helm chart configuration values. Please refer to the `Configuration` chapter below for details on this.
