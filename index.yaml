@@ -1,21 +1,15 @@
 apiVersion: v1
 entries:
-  Cloudflow:
+  cloudflow:
   - apiVersion: v1
-    created: "2020-08-27T09:29:41.993467319+02:00"
+    appVersion: 2.0.8
+    created: "2020-08-27T10:57:17.300380098+02:00"
     description: A Helm chart for installing Cloudflow
-    digest: 3890140fbb9aa93a960940c0f441156bd0f475ade2876db2f93b754054d3b5e7
+    digest: ce559f17ca3c16842fb45c65df2e5b17f011a7d2f92464c13963e68e4a775e2c
+    home: https://cloudflow.io
     icon: https://cloudflow.io/_/img/cloudflow-icon-full-color-flush.svg
-    name: Cloudflow
+    name: cloudflow
     urls:
-    - Cloudflow-2.0.8.tgz
+    - charts/cloudflow-2.0.8.tgz
     version: 2.0.8
-  - apiVersion: v1
-    created: "2020-08-27T09:29:41.992966528+02:00"
-    description: A Helm chart for installing Cloudflow
-    digest: bfede99065ce42c29ac6945de2e19168a32916f2868890e73904db65a629352a
-    name: Cloudflow
-    urls:
-    - Cloudflow-2.0.7.tgz
-    version: 2.0.7
-generated: "2020-08-27T09:29:41.992081015+02:00"
+generated: "2020-08-27T10:57:17.298459273+02:00"
