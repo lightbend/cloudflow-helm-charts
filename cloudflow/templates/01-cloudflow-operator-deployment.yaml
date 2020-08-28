@@ -19,7 +19,7 @@ spec:
       automountServiceAccountToken: true
       containers:
         - name: {{ .Values.cloudflow_operator.name }}
-          image: docker.io/olofwalker/cloudflow-operator:641-e8d8434
+          image: docker.io/olofwalker/cloudflow-operator:671-e9d01ce-dirty
           imagePullPolicy: {{ .Values.cloudflow_operator.image.pullPolicy }}
           ports:
             - containerPort: 5001
