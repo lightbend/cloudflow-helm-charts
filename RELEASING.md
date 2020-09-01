@@ -11,6 +11,7 @@ Make sure that you have Helm v3 or later installed before proceeding.
     - `helm package cloudflow -d charts/`
     
     This creates a new compressed archive with the current version of the chart.
+    Add this file to your commit to git.
 1. Update the repo index using the following command:
     - `helm repo index charts`
   
