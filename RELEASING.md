@@ -13,7 +13,7 @@ Make sure that you have Helm v3 or later installed before proceeding.
     This creates a new compressed archive with the current version of the chart.
     Add this file to your commit to git.
 1. Update the repo index using the following command:
-    - `helm repo index charts`
+    - `helm repo index .`
   
     This adds the new version of the chart to the index file read by Helm to find chart versions.
 1. Commit the new compressed repo in `charts/` and all updated files, and push the branch to Github.
