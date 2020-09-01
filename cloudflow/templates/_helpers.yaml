@@ -1,13 +1,13 @@
 {{- define "cloudflow.labels" }}
-app.kubernetes.io/version: {{.Chart.appVersion}}
+app.kubernetes.io/version: {{.Chart.AppVersion}}
 cloudflow.lightbend.com/release-version: {{ .Chart.Version }}
-cloudflow.lightbend.com/build-number: {{ .Chart.appVersion }}
+cloudflow.lightbend.com/build-number: {{ .Chart.AppVersion }}
 {{- end }}
 
 {{/* Generate basic labels */}}
 {{- define "kafka.operator.labels" }}
 app.kubernetes.io/managed-by: helm
-app.kubernetes.io/version: {{ .Chart.appVersion }}
+app.kubernetes.io/version: {{ .Chart.AppVersion }}
 {{- if .Values.podLabels}}
 {{ toYaml .Values.podLabels }}
 {{- end }}
