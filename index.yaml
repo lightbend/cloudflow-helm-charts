@@ -3,13 +3,13 @@ entries:
   cloudflow:
   - apiVersion: v1
     appVersion: 2.0.9
-    created: "2020-09-01T14:04:01.655495+02:00"
+    created: "2020-09-01T14:06:59.720665+02:00"
     description: A Helm chart for installing Cloudflow
-    digest: 0b4318cb83b5034cc7c6746a09fe3209175aaa98a221d99cd9679e7485c9e998
+    digest: 2b515be14027056c5418b4b1706d9feab1e2c211033dd8d9548ab529bc561d35
     home: https://cloudflow.io
     icon: https://cloudflow.io/_/img/cloudflow-icon-full-color-flush.svg
     name: cloudflow
     urls:
     - charts/cloudflow-2.0.9.tgz
     version: 2.0.9
-generated: "2020-09-01T14:04:01.654341+02:00"
+generated: "2020-09-01T14:06:59.718535+02:00"
