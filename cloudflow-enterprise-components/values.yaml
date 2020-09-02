@@ -1,0 +1,31 @@
+serviceAccount: cloudflow-operator
+
+enterpriseOperator:
+  image: lightbend-docker-commercial-registry.bintray.io/lightbend/cloudflow-enterprise-operator
+  version: 2.0.7
+
+enterprise-suite:
+  enableElasticsearch: false
+  deploymentApiVersion: apps/v1
+
+  imageCredentials:
+    username: null
+    password: null
+
+  esConsoleImage: lightbend-docker-commercial-registry.bintray.io/enterprise-suite/es-console
+  esMonitorImage: lightbend-docker-commercial-registry.bintray.io/enterprise-suite/console-api
+  esGrafanaImage: lightbend-docker-commercial-registry.bintray.io/enterprise-suite/es-grafana
+  prometheusImage: prom/prometheus
+  configMapReloadImage: jimmidyson/configmap-reload
+  kubeStateMetricsImage: quay.io/coreos/kube-state-metrics
+  alpineImage: alpine
+  busyboxImage: busybox
+
+  esConsoleVersion: v1.4.6
+  esMonitorVersion: v1.2.5
+  esGrafanaVersion: v0.3.3
+  prometheusVersion: v2.19.2
+  configMapReloadVersion: v0.2.2
+  kubeStateMetricsVersion: v1.9.7
+  alpineVersion: "3.9"
+  busyboxVersion: "1.30"

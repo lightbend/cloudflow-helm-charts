@@ -1,0 +1,30 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: cloudflow-enterprise-operator
+  labels: &CloudflowDeploymentLabels
+    app.kubernetes.io/name: {{ .Release.Name }}
+    app.kubernetes.io/component: cloudflow
+spec:
+  selector:
+    matchLabels: *CloudflowDeploymentLabels
+  template:
+    metadata:
+      labels: *CloudflowDeploymentLabels
+      annotations: 
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "2049"
+    spec:
+      serviceAccountName: {{ .Values.serviceAccount }}
+      containers:
+        - name: cloudflow-enterprise-operator
+          image: "{{ .Values.enterpriseOperator.image }}:{{ .Values.enterpriseOperator.version }}"
+          ports:
+          - containerPort: 5001
+            name: http
+            protocol: TCP
+          - containerPort: 2049
+            name: topo-metrics
+            protocol: TCP
+      imagePullSecrets:
+        - name: "commercial-credentials"
