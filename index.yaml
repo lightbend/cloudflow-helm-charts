@@ -3,7 +3,7 @@ entries:
   cloudflow:
   - apiVersion: v1
     appVersion: 2.0.10
-    created: "2020-09-04T09:49:30.945106+02:00"
+    created: "2020-09-08T16:18:35.585423+02:00"
     description: A Helm chart for installing Cloudflow
     digest: 7d174f4ef46d400cc5cc87cc25770a473aab24c0fc62a75d5b001c02eaf6e92a
     home: https://cloudflow.io
@@ -13,8 +13,19 @@ entries:
     - charts/cloudflow-2.0.10.tgz
     version: 2.0.10
   - apiVersion: v1
+    appVersion: 2.0.10-RC2
+    created: "2020-09-08T16:18:35.584718+02:00"
+    description: A Helm chart for installing Cloudflow
+    digest: 604464f66a919e6e308fa6338e3057f07304a79ca491055c72c85400996300f8
+    home: https://cloudflow.io
+    icon: https://cloudflow.io/_/img/cloudflow-icon-full-color-flush.svg
+    name: cloudflow
+    urls:
+    - charts/cloudflow-2.0.10-RC2.tgz
+    version: 2.0.10-RC2
+  - apiVersion: v1
     appVersion: 2.0.9
-    created: "2020-09-04T09:49:30.945834+02:00"
+    created: "2020-09-08T16:18:35.58632+02:00"
     description: A Helm chart for installing Cloudflow
     digest: 03a72647553541ed2bb87ad32d9b929fd51d8c11dc47207d36d80ad1ced649cf
     home: https://cloudflow.io
@@ -26,7 +37,7 @@ entries:
   cloudflow-enterprise-components:
   - apiVersion: v1
     appVersion: 2.0.10
-    created: "2020-09-04T09:49:30.947722+02:00"
+    created: "2020-09-08T16:18:35.590295+02:00"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -37,8 +48,20 @@ entries:
     - charts/cloudflow-enterprise-components-2.0.10.tgz
     version: 2.0.10
   - apiVersion: v1
+    appVersion: 2.0.10-RC2
+    created: "2020-09-08T16:18:35.58861+02:00"
+    dependencies:
+    - name: enterprise-suite
+      repository: https://repo.lightbend.com/helm-charts/
+      version: 1.2.12
+    digest: 7ce0ec5aea2c7a079a056fe5b2f604ddf85439be886f26881451ccf4f09c5a7f
+    name: cloudflow-enterprise-components
+    urls:
+    - charts/cloudflow-enterprise-components-2.0.10-RC2.tgz
+    version: 2.0.10-RC2
+  - apiVersion: v1
     appVersion: 2.0.9
-    created: "2020-09-04T09:49:30.950221+02:00"
+    created: "2020-09-08T16:18:35.59191+02:00"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -48,4 +71,4 @@ entries:
     urls:
     - charts/cloudflow-enterprise-components-2.0.9.tgz
     version: 2.0.9
-generated: "2020-09-04T09:49:30.944168+02:00"
+generated: "2020-09-08T16:18:35.583731+02:00"
