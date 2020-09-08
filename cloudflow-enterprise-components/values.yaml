@@ -21,10 +21,10 @@ enterprise-suite:
   alpineImage: alpine
   busyboxImage: busybox
 
-  esConsoleVersion: v1.4.6
+  esConsoleVersion: v1.4.8
   esMonitorVersion: v1.2.5
-  esGrafanaVersion: v0.3.3
-  prometheusVersion: v2.19.2
+  esGrafanaVersion: v0.3.5
+  prometheusVersion: v2.19.3
   configMapReloadVersion: v0.2.2
   kubeStateMetricsVersion: v1.9.7
   alpineVersion: "3.9"

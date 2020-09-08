@@ -1,6 +1,0 @@
-dependencies:
-- name: enterprise-suite
-  repository: https://repo.lightbend.com/helm-charts/
-  version: 1.2.9
-digest: sha256:bbabfd8075ae5bd11ac68fb8142504ca2d5b058f3a68e645623590f5b24582fe
-generated: "2020-05-31T22:47:33.853337-04:00"
