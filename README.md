@@ -11,6 +11,9 @@ helm repo add cloudflow-helm-charts https://lightbend.github.io/cloudflow-helm-c
 helm repo update
 ```
 
+For further information on how to install Cloudflow using these helm charts, see
+the instructions in the [Cloudflow documentation](https://cloudflow.io/docs/current/administration/index.html).
+
 ## More information
 
 Cloudflow is an open source project supported by Lightbend, for more information visit the following link:
