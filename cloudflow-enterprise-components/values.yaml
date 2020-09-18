@@ -2,7 +2,7 @@ serviceAccount: cloudflow-operator
 
 enterpriseOperator:
   image: lightbend-docker-commercial-registry.bintray.io/lightbend/cloudflow-enterprise-operator
-  version: 2.0.10
+  version: 2.0.11-RC1
 
 enterprise-suite:
   enableElasticsearch: false
