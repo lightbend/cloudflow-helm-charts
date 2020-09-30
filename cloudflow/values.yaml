@@ -29,7 +29,7 @@ cloudflow_operator:
 # Named Kafka cluster settings
 kafkaClusters:
   default:
-    bootstrapServers: # TODO: revert to support no Kafka config provided
+    bootstrapServers:
     partitions: 53
     replicas: 2
     connectionConfig: {}
