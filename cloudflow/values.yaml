@@ -1,7 +1,6 @@
 cloudflow_operator:
   name: "cloudflow-operator"
   persistentStorageClass: standard
-  kafkaBootstrapservers:
   image: 
     name: lightbend/cloudflow-operator
     pullPolicy: "IfNotPresent"
@@ -26,3 +25,15 @@ cloudflow_operator:
   ## JVM command line options
   jvm:
     opts: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap
+
+# Named Kafka cluster settings
+kafkaClusters:
+  default:
+    bootstrapServers:
+    partitions: 53
+    replicas: 2
+    connectionConfig: {}
+    # more config can be added here from Kafka ProducerConfig (see org.apache.kafka.clients.producer.ProducerConfig)
+    producerConfig: {}
+    # more config can be added here from Kafka ConsumerConfig (see org.apache.kafka.clients.consumer.ConsumerConfig)
+    consumerConfig: {}

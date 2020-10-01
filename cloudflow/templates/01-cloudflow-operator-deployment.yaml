@@ -19,7 +19,7 @@ spec:
       automountServiceAccountToken: true
       containers:
         - name: {{ .Values.cloudflow_operator.name }}
-          image: "{{ .Values.cloudflow_operator.image.name }}:{{ .Chart.AppVersion }}"
+          image: "{{ .Values.cloudflow_operator.image.name }}:{{ .Values.cloudflow_operator.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.cloudflow_operator.image.pullPolicy }}
           ports:
             - containerPort: 5001
@@ -61,6 +61,10 @@ spec:
               valueFrom:
                 fieldRef:
                   fieldPath: metadata.namespace
+            - name: LOGLEVEL_ROOT
+              value: "{{ .Values.cloudflow_operator.logLevelRoot | default "INFO" }}"
+            - name: LOGLEVEL_AKKA
+              value: "{{ .Values.cloudflow_operator.logLevelAkka | default "INFO" }}"
           readinessProbe:
             httpGet:
               path: /checks/ready
