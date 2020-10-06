@@ -65,6 +65,8 @@ spec:
               value: "{{ .Values.cloudflow_operator.logLevelRoot | default "INFO" }}"
             - name: LOGLEVEL_AKKA
               value: "{{ .Values.cloudflow_operator.logLevelAkka | default "INFO" }}"
+            - name: LOGLEVEL_SKUBER
+              value: "{{ .Values.cloudflow_operator.logLevelSkuber | default "WARN" }}"
           readinessProbe:
             httpGet:
               path: /checks/ready
