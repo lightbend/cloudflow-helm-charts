@@ -10,7 +10,7 @@ cloudflow_operator:
       memory: "256M"
     limits:
       cpu: "0.5"
-      memory: "512M"
+      memory: "1G"
   ## Akka runner settings
   akkaRunner:
     requestsMemory: "128M"
