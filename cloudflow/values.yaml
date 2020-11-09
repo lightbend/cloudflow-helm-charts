@@ -1,6 +1,5 @@
 cloudflow_operator:
   name: "cloudflow-operator"
-  persistentStorageClass: standard
   image: 
     name: lightbend/cloudflow-operator
     pullPolicy: "IfNotPresent"
