@@ -36,8 +36,6 @@ spec:
               value: {{ .Values.cloudflow_operator.jvm.opts }}
             - name: KAFKA_BOOTSTRAP_SERVERS
               value: "{{.Values.cloudflow_operator.kafkaBootstrapservers}}"
-            - name: PERSISTENT_STORAGE_CLASS
-              value: "{{.Values.cloudflow_operator.persistentStorageClass}}"
             - name: AKKA_RUNNER_REQUESTS_MEMORY
               value: "{{ .Values.cloudflow_operator.akkaRunner.requestsMemory }}"
             - name: AKKA_RUNNER_REQUESTS_CPU
