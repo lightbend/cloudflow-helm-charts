@@ -1,3 +1,5 @@
+[![Artifact HUB](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/cloudflow-helm-charts)](https://artifacthub.io/packages/search?repo=cloudflow-helm-charts)
+
 # Cloudflow Helm charts
 
 This repository contains Helm charts for the [Cloudflow](https://cloudflow.io) project. 
