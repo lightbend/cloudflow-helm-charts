@@ -1,0 +1,7 @@
+# Artifact Hub repository metadata file
+repositoryID: cloudflow-helm-charts
+owners:
+  - name: Raymond Roestenburg
+    email: raymond.roestenburg@lightbend.com
+  - name: Andrea Peruffo
+    email: andrea.peruffo1982@gmail.com
