@@ -1,17 +1,13 @@
 serviceAccount: cloudflow-operator
-
 enterpriseOperator:
   image: lightbend-docker-commercial-registry.bintray.io/lightbend/cloudflow-enterprise-operator
-  version: 2.1.0-SNAPSHOT
-
+  version: 0.0.0-NIGHTLY11122020
 enterprise-suite:
   enableElasticsearch: false
   deploymentApiVersion: apps/v1
-
   imageCredentials:
     username: null
     password: null
-
   esConsoleImage: lightbend-docker-commercial-registry.bintray.io/enterprise-suite/es-console
   esMonitorImage: lightbend-docker-commercial-registry.bintray.io/enterprise-suite/console-api
   esGrafanaImage: lightbend-docker-commercial-registry.bintray.io/enterprise-suite/es-grafana
@@ -20,7 +16,6 @@ enterprise-suite:
   kubeStateMetricsImage: quay.io/coreos/kube-state-metrics
   alpineImage: alpine
   busyboxImage: busybox
-
   esConsoleVersion: v1.4.8
   esMonitorVersion: v1.2.5
   esGrafanaVersion: v0.3.5
