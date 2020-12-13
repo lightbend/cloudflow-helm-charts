@@ -35,7 +35,7 @@ spec:
             - name: JAVA_OPTS
               value: {{ .Values.cloudflow_operator.jvm.opts }}
             - name: KAFKA_BOOTSTRAP_SERVERS
-              value: "{{.Values.cloudflow_operator.kafkaBootstrapservers}}"
+              value: "{{.Values.kafkaClusters.default.bootstrapServers}}"
             - name: AKKA_RUNNER_REQUESTS_MEMORY
               value: "{{ .Values.cloudflow_operator.akkaRunner.requestsMemory }}"
             - name: AKKA_RUNNER_REQUESTS_CPU
