@@ -37,7 +37,7 @@ The chart can be customized using the following configurable parameters:
 | ------------------------------- | ----------------------------------------------------------------| -----------------------------|
 | `cloudflow_operator.image.name` | The full cloudflow-operator image name to use, including the registry and repository, without the image tag. | lightbend/cloudflow-operator |
 | `cloudflow_operator.version` | The version of the cloudflow-operator. It is also used for the tag of the cloudflow-operator image. | &lt;current version &gt; |
-| `kafkaClusters.default.bootstrapservers` | A comma-separated list of host/port pairs to use for establishing the connection to the default Kafka cluster that Cloudflow will use. If no default cluster is defined then any topic in a blueprint without inline Kafka config, or using another provided named cluster, will not be able to run. | `nil`  |
+| `kafkaClusters.default.bootstrapServers` | A comma-separated list of host/port pairs to use for establishing the connection to the default Kafka cluster that Cloudflow will use. If no default cluster is defined then any topic in a blueprint without inline Kafka config, or using another provided named cluster, will not be able to run. | `nil`  |
 
 Specify parameters using `--set key=value[,key=value]` argument to `helm install`
 
