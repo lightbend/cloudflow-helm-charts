@@ -1,7 +1,7 @@
 serviceAccount: cloudflow-operator
 enterpriseOperator:
   image: lightbend-docker-commercial-registry.bintray.io/lightbend/cloudflow-enterprise-operator
-  version: 0.0.0-NIGHTLY18122020
+  version: 2.0.21-RC2
 enterprise-suite:
   enableElasticsearch: false
   deploymentApiVersion: apps/v1
