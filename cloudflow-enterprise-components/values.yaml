@@ -16,9 +16,9 @@ enterprise-suite:
   kubeStateMetricsImage: quay.io/coreos/kube-state-metrics
   alpineImage: alpine
   busyboxImage: busybox
-  esConsoleVersion: v1.4.10-RC1
+  esConsoleVersion: v1.4.10
   esMonitorVersion: v1.2.5
-  esGrafanaVersion: v0.5.0-RC1
+  esGrafanaVersion: v0.5.0
   prometheusVersion: v2.21.0
   configMapReloadVersion: v0.4.0
   kubeStateMetricsVersion: v1.9.7
