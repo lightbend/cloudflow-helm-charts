@@ -3,7 +3,7 @@ entries:
   cloudflow:
   - apiVersion: v1
     appVersion: 2.0.22
-    created: "2021-01-23T01:53:23.880361952Z"
+    created: "2021-01-24T01:55:21.931336791Z"
     description: A Helm chart for installing Cloudflow
     digest: 56dd1c4579ed0b2336420e30f1457d670fba6cf83cffab48718e67d135996656
     home: https://cloudflow.io
@@ -14,7 +14,7 @@ entries:
     version: 2.0.22
   - apiVersion: v1
     appVersion: 2.0.22-TEST7
-    created: "2021-01-23T01:53:23.87970314Z"
+    created: "2021-01-24T01:55:21.930765182Z"
     description: A Helm chart for installing Cloudflow
     digest: 65f74a708ec5b88893f04dc910c750840fc24e7b31a8257a3b1166543abcd2e8
     home: https://cloudflow.io
@@ -25,7 +25,7 @@ entries:
     version: 2.0.22-TEST7
   - apiVersion: v1
     appVersion: 2.0.22-TEST6
-    created: "2021-01-23T01:53:23.879012828Z"
+    created: "2021-01-24T01:55:21.930188774Z"
     description: A Helm chart for installing Cloudflow
     digest: 30dff4083a7aea54ae08d4001d9ea3c41f66c6901d3ace49dd16d527d04331d0
     home: https://cloudflow.io
@@ -36,7 +36,7 @@ entries:
     version: 2.0.22-TEST6
   - apiVersion: v1
     appVersion: 2.0.22-TEST4
-    created: "2021-01-23T01:53:23.878196413Z"
+    created: "2021-01-24T01:55:21.929595465Z"
     description: A Helm chart for installing Cloudflow
     digest: 1edad2594c89ad555cbaa2a8446beaadc46438261dc4fb6a9ffb6809ac24fc6d
     home: https://cloudflow.io
@@ -47,7 +47,7 @@ entries:
     version: 2.0.22-TEST4
   - apiVersion: v1
     appVersion: 2.0.22-RC2
-    created: "2021-01-23T01:53:23.877663104Z"
+    created: "2021-01-24T01:55:21.929022956Z"
     description: A Helm chart for installing Cloudflow
     digest: 325a96dafa9b33a2c30377a5fe5dea1c815f035c5f04a6e6d5a799b92eb62b8f
     home: https://cloudflow.io
@@ -57,8 +57,19 @@ entries:
     - charts/cloudflow-2.0.22-RC2.tgz
     version: 2.0.22-RC2
   - apiVersion: v1
+    appVersion: 2.0.22-NIGHTLY20210124
+    created: "2021-01-24T01:55:21.928460048Z"
+    description: A Helm chart for installing Cloudflow
+    digest: 1d007102d8ce44b239b45c51244051dcae52f4c4be038299841378c130616e08
+    home: https://cloudflow.io
+    icon: https://cloudflow.io/_/img/cloudflow-icon-full-color-flush.svg
+    name: cloudflow
+    urls:
+    - charts/cloudflow-2.0.22-NIGHTLY20210124.tgz
+    version: 2.0.22-NIGHTLY20210124
+  - apiVersion: v1
     appVersion: 2.0.22-NIGHTLY20210123
-    created: "2021-01-23T01:53:23.877119694Z"
+    created: "2021-01-24T01:55:21.927870239Z"
     description: A Helm chart for installing Cloudflow
     digest: bd05af3b2e6e7052c85ad1ea13c51de74d291ddcf863b5ad41d14e77809b7e58
     home: https://cloudflow.io
@@ -69,7 +80,7 @@ entries:
     version: 2.0.22-NIGHTLY20210123
   - apiVersion: v1
     appVersion: 2.0.22-NIGHTLY20210121
-    created: "2021-01-23T01:53:23.876581985Z"
+    created: "2021-01-24T01:55:21.92726373Z"
     description: A Helm chart for installing Cloudflow
     digest: eb7f2ddc0e3e214ee8872803ccf10807112d7970e3f01fe6aa53d39f163498bc
     home: https://cloudflow.io
@@ -80,7 +91,7 @@ entries:
     version: 2.0.22-NIGHTLY20210121
   - apiVersion: v1
     appVersion: 2.0.22-NIGHTLY20210120
-    created: "2021-01-23T01:53:23.876066076Z"
+    created: "2021-01-24T01:55:21.926620521Z"
     description: A Helm chart for installing Cloudflow
     digest: 4ea5a4d20569ea023e0ba26df529fba57cbfa906a921ff86a088f3d8a509b5a4
     home: https://cloudflow.io
@@ -91,7 +102,7 @@ entries:
     version: 2.0.22-NIGHTLY20210120
   - apiVersion: v1
     appVersion: 2.0.22-NIGHTLY20210119
-    created: "2021-01-23T01:53:23.875551467Z"
+    created: "2021-01-24T01:55:21.925976311Z"
     description: A Helm chart for installing Cloudflow
     digest: 7e0921a1e7dc108c4487a2d74a687e3250a74aff0a2547ae3060e19900aa15a5
     home: https://cloudflow.io
@@ -102,7 +113,7 @@ entries:
     version: 2.0.22-NIGHTLY20210119
   - apiVersion: v1
     appVersion: 2.0.22-NIGHTLY20210118
-    created: "2021-01-23T01:53:23.875009257Z"
+    created: "2021-01-24T01:55:21.925363102Z"
     description: A Helm chart for installing Cloudflow
     digest: 4985a35f6fb908835b1db78223d2fe7763894e410898b58b302ac16f08cec9e2
     home: https://cloudflow.io
@@ -113,7 +124,7 @@ entries:
     version: 2.0.22-NIGHTLY20210118
   - apiVersion: v1
     appVersion: 2.0.22-NIGHTLY20210117
-    created: "2021-01-23T01:53:23.874492848Z"
+    created: "2021-01-24T01:55:21.924772493Z"
     description: A Helm chart for installing Cloudflow
     digest: d5bab2351bbd939b913e7e3a6fc3913fabd63def9ed0d8ad68b0494ae875164a
     home: https://cloudflow.io
@@ -124,7 +135,7 @@ entries:
     version: 2.0.22-NIGHTLY20210117
   - apiVersion: v1
     appVersion: 2.0.21
-    created: "2021-01-23T01:53:23.873976839Z"
+    created: "2021-01-24T01:55:21.924168984Z"
     description: A Helm chart for installing Cloudflow
     digest: 328c8e8c7a60d23104243c19789eb3478dafb3970a6d3bdf7f2f041c7c739432
     home: https://cloudflow.io
@@ -135,7 +146,7 @@ entries:
     version: 2.0.21
   - apiVersion: v1
     appVersion: 2.0.21-RC2
-    created: "2021-01-23T01:53:23.87346133Z"
+    created: "2021-01-24T01:55:21.923577876Z"
     description: A Helm chart for installing Cloudflow
     digest: bc651bc1a13f8c9a97b8b5b0ada4c000a747833a94248b7d0a7ac2705ec1e0f1
     home: https://cloudflow.io
@@ -146,7 +157,7 @@ entries:
     version: 2.0.21-RC2
   - apiVersion: v1
     appVersion: 2.0.21-RC1
-    created: "2021-01-23T01:53:23.87294082Z"
+    created: "2021-01-24T01:55:21.922975867Z"
     description: A Helm chart for installing Cloudflow
     digest: 48c2c8821387edd9dcd5e76c376c75a0ef32f5db00e08bf0b1bc091baf543594
     home: https://cloudflow.io
@@ -157,7 +168,7 @@ entries:
     version: 2.0.21-RC1
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY21122020
-    created: "2021-01-23T01:53:23.872421911Z"
+    created: "2021-01-24T01:55:21.922361157Z"
     description: A Helm chart for installing Cloudflow
     digest: a331e45f3ac5d95c978686fd616a01df3b1736dcaf42f065c666ee8f1837d6c8
     home: https://cloudflow.io
@@ -168,7 +179,7 @@ entries:
     version: 2.0.21-NIGHTLY21122020
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210116
-    created: "2021-01-23T01:53:23.871903802Z"
+    created: "2021-01-24T01:55:21.921746048Z"
     description: A Helm chart for installing Cloudflow
     digest: 64ededaff0b41e7250ae4ce0a31c039f7710b7a863e90e013dd462f6bffe30bb
     home: https://cloudflow.io
@@ -179,7 +190,7 @@ entries:
     version: 2.0.21-NIGHTLY20210116
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210115
-    created: "2021-01-23T01:53:23.871370493Z"
+    created: "2021-01-24T01:55:21.920922636Z"
     description: A Helm chart for installing Cloudflow
     digest: 77b3ef0b2765d3522df0dcfea98065489b83d0e7749d77f4df11813669e91a0b
     home: https://cloudflow.io
@@ -190,7 +201,7 @@ entries:
     version: 2.0.21-NIGHTLY20210115
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210114
-    created: "2021-01-23T01:53:23.870827283Z"
+    created: "2021-01-24T01:55:21.920186525Z"
     description: A Helm chart for installing Cloudflow
     digest: f97464bd5ba3c8d34bf06511cc16bd491d5d8ccbe1516cc4876e370dbff14c17
     home: https://cloudflow.io
@@ -201,7 +212,7 @@ entries:
     version: 2.0.21-NIGHTLY20210114
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210113
-    created: "2021-01-23T01:53:23.870308574Z"
+    created: "2021-01-24T01:55:21.919455914Z"
     description: A Helm chart for installing Cloudflow
     digest: 52dec39562ce6ddf833398b0ebe289033868de5a3bc34ebf288342a50d39a0d9
     home: https://cloudflow.io
@@ -212,7 +223,7 @@ entries:
     version: 2.0.21-NIGHTLY20210113
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210112
-    created: "2021-01-23T01:53:23.869788465Z"
+    created: "2021-01-24T01:55:21.918425399Z"
     description: A Helm chart for installing Cloudflow
     digest: 5dea5ac379f897fc361f158a915acb645667728cdb8e87a125d82cd2c9efde4d
     home: https://cloudflow.io
@@ -223,7 +234,7 @@ entries:
     version: 2.0.21-NIGHTLY20210112
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210111
-    created: "2021-01-23T01:53:23.869237855Z"
+    created: "2021-01-24T01:55:21.91781739Z"
     description: A Helm chart for installing Cloudflow
     digest: c11e10aea60111ae93f7143ac6066079c6873acad51b2aa5f7b555ac1aae1bcf
     home: https://cloudflow.io
@@ -234,7 +245,7 @@ entries:
     version: 2.0.21-NIGHTLY20210111
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210110
-    created: "2021-01-23T01:53:23.86785413Z"
+    created: "2021-01-24T01:55:21.917205981Z"
     description: A Helm chart for installing Cloudflow
     digest: af34d4c2bed151a3288dd3e02c4b975c461cfa3832271b2a11222ecf09431525
     home: https://cloudflow.io
@@ -245,7 +256,7 @@ entries:
     version: 2.0.21-NIGHTLY20210110
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210109
-    created: "2021-01-23T01:53:23.867144518Z"
+    created: "2021-01-24T01:55:21.916625272Z"
     description: A Helm chart for installing Cloudflow
     digest: 99ab39ac52e13320e7c163f7cf422a8be362d217bc0c242be3e4c9ab6ca9d834
     home: https://cloudflow.io
@@ -256,7 +267,7 @@ entries:
     version: 2.0.21-NIGHTLY20210109
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210108
-    created: "2021-01-23T01:53:23.866244202Z"
+    created: "2021-01-24T01:55:21.916052664Z"
     description: A Helm chart for installing Cloudflow
     digest: 42e4c2c5303ca404f13979b6a335c729866ae8903a9ab5ffcf2fa8f4222ee760
     home: https://cloudflow.io
@@ -267,7 +278,7 @@ entries:
     version: 2.0.21-NIGHTLY20210108
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210107
-    created: "2021-01-23T01:53:23.865727293Z"
+    created: "2021-01-24T01:55:21.915474555Z"
     description: A Helm chart for installing Cloudflow
     digest: 91f13d7ea701085ed3540ccde2fca190e16283fc604f85e9f311fe0eb0b7531f
     home: https://cloudflow.io
@@ -278,7 +289,7 @@ entries:
     version: 2.0.21-NIGHTLY20210107
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210106
-    created: "2021-01-23T01:53:23.865213384Z"
+    created: "2021-01-24T01:55:21.914902847Z"
     description: A Helm chart for installing Cloudflow
     digest: a75a8b506b2bf0927a929b20597b8efcad7b667c9342dc9f5c4b2ce0b45cebf9
     home: https://cloudflow.io
@@ -289,7 +300,7 @@ entries:
     version: 2.0.21-NIGHTLY20210106
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210105
-    created: "2021-01-23T01:53:23.864640274Z"
+    created: "2021-01-24T01:55:21.914322538Z"
     description: A Helm chart for installing Cloudflow
     digest: 9bcf43fcd1c8703e795134c932bd3dacd9a01774dd50684e10741378ef4c7cc9
     home: https://cloudflow.io
@@ -300,7 +311,7 @@ entries:
     version: 2.0.21-NIGHTLY20210105
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210104
-    created: "2021-01-23T01:53:23.864123265Z"
+    created: "2021-01-24T01:55:21.913693729Z"
     description: A Helm chart for installing Cloudflow
     digest: 113de975a0eccf5d442b14b28269e6a218df4186e70a5bd01de285982eaf4cbc
     home: https://cloudflow.io
@@ -311,7 +322,7 @@ entries:
     version: 2.0.21-NIGHTLY20210104
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210103
-    created: "2021-01-23T01:53:23.863591155Z"
+    created: "2021-01-24T01:55:21.91307792Z"
     description: A Helm chart for installing Cloudflow
     digest: e24d95922648e2a5dc59e4e3506ad753db25720c849a661ef9aa2ad88debc5f8
     home: https://cloudflow.io
@@ -322,7 +333,7 @@ entries:
     version: 2.0.21-NIGHTLY20210103
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210102
-    created: "2021-01-23T01:53:23.863041245Z"
+    created: "2021-01-24T01:55:21.91245891Z"
     description: A Helm chart for installing Cloudflow
     digest: 26715c1ba9d390cb4e314a91d85ef0383e4e858b562390af17785d28ff328f46
     home: https://cloudflow.io
@@ -333,7 +344,7 @@ entries:
     version: 2.0.21-NIGHTLY20210102
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210101
-    created: "2021-01-23T01:53:23.862499936Z"
+    created: "2021-01-24T01:55:21.911848201Z"
     description: A Helm chart for installing Cloudflow
     digest: ade683c430706fe8827c4380fbb6a1905fc9ade2f0179345a20cc65987fb86ba
     home: https://cloudflow.io
@@ -344,7 +355,7 @@ entries:
     version: 2.0.21-NIGHTLY20210101
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20201231
-    created: "2021-01-23T01:53:23.861977927Z"
+    created: "2021-01-24T01:55:21.911232592Z"
     description: A Helm chart for installing Cloudflow
     digest: f2c1e5e4fe71d30d96144048220dac32b86ca383019884f56151edca802e6d6e
     home: https://cloudflow.io
@@ -355,7 +366,7 @@ entries:
     version: 2.0.21-NIGHTLY20201231
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20201228
-    created: "2021-01-23T01:53:23.861425017Z"
+    created: "2021-01-24T01:55:21.910582382Z"
     description: A Helm chart for installing Cloudflow
     digest: 2d464a039fae8bbc72278eeb65ea5fc90734ef953a7ac6c7296b1c6ca0582718
     home: https://cloudflow.io
@@ -366,7 +377,7 @@ entries:
     version: 2.0.21-NIGHTLY20201228
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20201227
-    created: "2021-01-23T01:53:23.860884607Z"
+    created: "2021-01-24T01:55:21.909932473Z"
     description: A Helm chart for installing Cloudflow
     digest: 57a5226577c5eec0a7f27aa59d27f89de9825a8f953e6d2e8eb52742821dc561
     home: https://cloudflow.io
@@ -377,7 +388,7 @@ entries:
     version: 2.0.21-NIGHTLY20201227
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20201226
-    created: "2021-01-23T01:53:23.860346198Z"
+    created: "2021-01-24T01:55:21.909347764Z"
     description: A Helm chart for installing Cloudflow
     digest: 14604ca0da9879e06a0d295496c3770fb3b1df030e860056c554f1f76b4774e7
     home: https://cloudflow.io
@@ -388,7 +399,7 @@ entries:
     version: 2.0.21-NIGHTLY20201226
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20201225
-    created: "2021-01-23T01:53:23.859825289Z"
+    created: "2021-01-24T01:55:21.908769956Z"
     description: A Helm chart for installing Cloudflow
     digest: 8f25256f7c49150ce7d703bd1bf560265bd816c52827cf9304fbcd8959a21393
     home: https://cloudflow.io
@@ -399,7 +410,7 @@ entries:
     version: 2.0.21-NIGHTLY20201225
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20201224
-    created: "2021-01-23T01:53:23.859309679Z"
+    created: "2021-01-24T01:55:21.908172247Z"
     description: A Helm chart for installing Cloudflow
     digest: c125357bbd48c17b2f1b760d62d7977eb90d5cd9ca4e24f52a68fe0a1d3b8ad4
     home: https://cloudflow.io
@@ -410,7 +421,7 @@ entries:
     version: 2.0.21-NIGHTLY20201224
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20201223
-    created: "2021-01-23T01:53:23.85876357Z"
+    created: "2021-01-24T01:55:21.907239333Z"
     description: A Helm chart for installing Cloudflow
     digest: 55db5e359a8641b8f13af3b820b4f6138d5bf0a89a98034300c58522c67f9e49
     home: https://cloudflow.io
@@ -421,7 +432,7 @@ entries:
     version: 2.0.21-NIGHTLY20201223
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20201222
-    created: "2021-01-23T01:53:23.85821416Z"
+    created: "2021-01-24T01:55:21.905823012Z"
     description: A Helm chart for installing Cloudflow
     digest: 35b202f4b07df799db9dc825a9ea8ed9720e8e5646df0d47853e46fe132327be
     home: https://cloudflow.io
@@ -432,7 +443,7 @@ entries:
     version: 2.0.21-NIGHTLY20201222
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20122020
-    created: "2021-01-23T01:53:23.857680351Z"
+    created: "2021-01-24T01:55:21.904883898Z"
     description: A Helm chart for installing Cloudflow
     digest: bb2df5eb8e5b1b39f4d57891705de728f1486174ab0fc807e240095c35c87586
     home: https://cloudflow.io
@@ -443,7 +454,7 @@ entries:
     version: 2.0.21-NIGHTLY20122020
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY19122020
-    created: "2021-01-23T01:53:23.857156941Z"
+    created: "2021-01-24T01:55:21.904319289Z"
     description: A Helm chart for installing Cloudflow
     digest: 4eb724bb07756dc642b58150a90ff5fdc64f6736d76fb6b6f9a629906cdd6d46
     home: https://cloudflow.io
@@ -454,7 +465,7 @@ entries:
     version: 2.0.21-NIGHTLY19122020
   - apiVersion: v1
     appVersion: 2.0.21-DOUBLECHECK20201228
-    created: "2021-01-23T01:53:23.856633432Z"
+    created: "2021-01-24T01:55:21.903747581Z"
     description: A Helm chart for installing Cloudflow
     digest: da568d634cb8d477f8ce151901df282a882504f2353ee6860b7ea30ed72c2005
     home: https://cloudflow.io
@@ -465,7 +476,7 @@ entries:
     version: 2.0.21-DOUBLECHECK20201228
   - apiVersion: v1
     appVersion: 2.0.21-CHECK20201230
-    created: "2021-01-23T01:53:23.856104023Z"
+    created: "2021-01-24T01:55:21.903174972Z"
     description: A Helm chart for installing Cloudflow
     digest: 1b02bfdf5e6ee1eecb11061d4e0f0ff6750d2f7055399a3077652478552bb797
     home: https://cloudflow.io
@@ -476,7 +487,7 @@ entries:
     version: 2.0.21-CHECK20201230
   - apiVersion: v1
     appVersion: 2.0.21-CHECK20201229
-    created: "2021-01-23T01:53:23.855515512Z"
+    created: "2021-01-24T01:55:21.902605464Z"
     description: A Helm chart for installing Cloudflow
     digest: 1b234866a20f6b4d347d0b174cc2ffa7a6b79da4425fdd9e9095c7b01be1f0bf
     home: https://cloudflow.io
@@ -487,7 +498,7 @@ entries:
     version: 2.0.21-CHECK20201229
   - apiVersion: v1
     appVersion: 2.0.21-CHECK20201228
-    created: "2021-01-23T01:53:23.8548423Z"
+    created: "2021-01-24T01:55:21.902012755Z"
     description: A Helm chart for installing Cloudflow
     digest: f8aa696fc833fb2a17fdc52836426ab6d40f45c0dd428f84f175d778a5ff20d4
     home: https://cloudflow.io
@@ -498,7 +509,7 @@ entries:
     version: 2.0.21-CHECK20201228
   - apiVersion: v1
     appVersion: 2.0.20
-    created: "2021-01-23T01:53:23.854195589Z"
+    created: "2021-01-24T01:55:21.901394046Z"
     description: A Helm chart for installing Cloudflow
     digest: 91f8d44f51dfb712b93e4e670df0e0268b4085192a1083a9c5c8a5cb58273c8c
     home: https://cloudflow.io
@@ -509,7 +520,7 @@ entries:
     version: 2.0.20
   - apiVersion: v1
     appVersion: 2.0.20-RC1
-    created: "2021-01-23T01:53:23.853546778Z"
+    created: "2021-01-24T01:55:21.900829438Z"
     description: A Helm chart for installing Cloudflow
     digest: 69cf31dfbb8c9be73359273247145f738aae688bcfb37fcad056aead975bcfb1
     home: https://cloudflow.io
@@ -520,7 +531,7 @@ entries:
     version: 2.0.20-RC1
   - apiVersion: v1
     appVersion: 2.0.19
-    created: "2021-01-23T01:53:23.852838565Z"
+    created: "2021-01-24T01:55:21.900248529Z"
     description: A Helm chart for installing Cloudflow
     digest: 837a0e48571ce0a8b291eca572f68c9a4e49c4527467e5086ccf70cba57d72a7
     home: https://cloudflow.io
@@ -531,7 +542,7 @@ entries:
     version: 2.0.19
   - apiVersion: v1
     appVersion: 2.0.19-RC5
-    created: "2021-01-23T01:53:23.851882348Z"
+    created: "2021-01-24T01:55:21.89967382Z"
     description: A Helm chart for installing Cloudflow
     digest: b6f84447e33117d2ca96162797a16c86454d4a59b1e3a232c82e8e91761bc4a1
     home: https://cloudflow.io
@@ -542,7 +553,7 @@ entries:
     version: 2.0.19-RC5
   - apiVersion: v1
     appVersion: 2.0.19-RC4
-    created: "2021-01-23T01:53:23.851193436Z"
+    created: "2021-01-24T01:55:21.899098412Z"
     description: A Helm chart for installing Cloudflow
     digest: b02a6d64661b16e7ce007a77026330b3aaf44a9eb643a2e1e7259a434a22ac6e
     home: https://cloudflow.io
@@ -553,7 +564,7 @@ entries:
     version: 2.0.19-RC4
   - apiVersion: v1
     appVersion: 2.0.19-RC3
-    created: "2021-01-23T01:53:23.850123317Z"
+    created: "2021-01-24T01:55:21.898522403Z"
     description: A Helm chart for installing Cloudflow
     digest: f1fd9c21135817de28b3f9d1afaa3b8cd3401ed7bb0a05e973133c14ccf6ac7e
     home: https://cloudflow.io
@@ -564,7 +575,7 @@ entries:
     version: 2.0.19-RC3
   - apiVersion: v1
     appVersion: 2.0.19-RC2
-    created: "2021-01-23T01:53:23.849596108Z"
+    created: "2021-01-24T01:55:21.897923394Z"
     description: A Helm chart for installing Cloudflow
     digest: 96868add4832d9bb643683049a37a0c4219b4a740f66b0ec0f035366e24e57ac
     home: https://cloudflow.io
@@ -575,7 +586,7 @@ entries:
     version: 2.0.19-RC2
   - apiVersion: v1
     appVersion: 2.0.19-RC1
-    created: "2021-01-23T01:53:23.849066098Z"
+    created: "2021-01-24T01:55:21.897347686Z"
     description: A Helm chart for installing Cloudflow
     digest: b40bce84344d4352d3589017f436053f2297fc9b26c843a5b47018aaaff32911
     home: https://cloudflow.io
@@ -586,7 +597,7 @@ entries:
     version: 2.0.19-RC1
   - apiVersion: v1
     appVersion: 2.0.18
-    created: "2021-01-23T01:53:23.848542889Z"
+    created: "2021-01-24T01:55:21.896774977Z"
     description: A Helm chart for installing Cloudflow
     digest: c7e1d1b626981870cfcee44f92b748cc62b76709d722fb234cdc1d875532b4a9
     home: https://cloudflow.io
@@ -597,7 +608,7 @@ entries:
     version: 2.0.18
   - apiVersion: v1
     appVersion: 2.0.16
-    created: "2021-01-23T01:53:23.84802718Z"
+    created: "2021-01-24T01:55:21.896128368Z"
     description: A Helm chart for installing Cloudflow
     digest: d2c5784886f55ae5b2b3a184fdbcc1736e7d2ad85a2d44b70345f1202733823d
     home: https://cloudflow.io
@@ -608,7 +619,7 @@ entries:
     version: 2.0.16
   - apiVersion: v1
     appVersion: 2.0.15-RC1
-    created: "2021-01-23T01:53:23.847488271Z"
+    created: "2021-01-24T01:55:21.895468758Z"
     description: A Helm chart for installing Cloudflow
     digest: dd3a9448d74b4bd97a05fffbc6fa27deb8fe7d4e957dddca33c4ed78adbeab70
     home: https://cloudflow.io
@@ -619,7 +630,7 @@ entries:
     version: 2.0.15-RC1
   - apiVersion: v1
     appVersion: 2.0.15-NIGHTLY-01
-    created: "2021-01-23T01:53:23.846925461Z"
+    created: "2021-01-24T01:55:21.894843749Z"
     description: A Helm chart for installing Cloudflow
     digest: a00e9831ecc3f798fd4ee207ea88c302671d7deb772d039b83d437d3c7de9bda
     home: https://cloudflow.io
@@ -630,7 +641,7 @@ entries:
     version: 2.0.15-NIGHTLY-01
   - apiVersion: v1
     appVersion: 2.0.15-CF-7
-    created: "2021-01-23T01:53:23.846417352Z"
+    created: "2021-01-24T01:55:21.894194639Z"
     description: A Helm chart for installing Cloudflow
     digest: 1e55c8d2895aa07e308963724720533072972a722c7e6cfe5a7423c14d8d0b76
     home: https://cloudflow.io
@@ -641,7 +652,7 @@ entries:
     version: 2.0.15-CF-7
   - apiVersion: v1
     appVersion: 2.0.15-CF-5
-    created: "2021-01-23T01:53:23.845903042Z"
+    created: "2021-01-24T01:55:21.893350926Z"
     description: A Helm chart for installing Cloudflow
     digest: 9c5e10f28c8a96a39853f6b67cc92625a0591de867d1615c59fe5576c1616cad
     home: https://cloudflow.io
@@ -652,7 +663,7 @@ entries:
     version: 2.0.15-CF-5
   - apiVersion: v1
     appVersion: 2.0.15-AP-17112020
-    created: "2021-01-23T01:53:23.845385833Z"
+    created: "2021-01-24T01:55:21.892602815Z"
     description: A Helm chart for installing Cloudflow
     digest: 5f275ba494dcd0709d21d6affbcb2396f1f76bbb25200b896c75e48a2aa9808a
     home: https://cloudflow.io
@@ -663,7 +674,7 @@ entries:
     version: 2.0.15-AP-17112020
   - apiVersion: v1
     appVersion: 2.0.14
-    created: "2021-01-23T01:53:23.844870724Z"
+    created: "2021-01-24T01:55:21.891853004Z"
     description: A Helm chart for installing Cloudflow
     digest: 0efd9d5a63e786e59f08f36870b3352b512cb8381f6e2b7c7033228cccd06eff
     home: https://cloudflow.io
@@ -674,7 +685,7 @@ entries:
     version: 2.0.14
   - apiVersion: v1
     appVersion: 2.0.14-RC1
-    created: "2021-01-23T01:53:23.844350515Z"
+    created: "2021-01-24T01:55:21.890667587Z"
     description: A Helm chart for installing Cloudflow
     digest: bfa658a7c263a55878fca4d65ea85554628ec526f7fd52b9042c5a903c7968e6
     home: https://cloudflow.io
@@ -685,7 +696,7 @@ entries:
     version: 2.0.14-RC1
   - apiVersion: v1
     appVersion: 2.0.13
-    created: "2021-01-23T01:53:23.843824506Z"
+    created: "2021-01-24T01:55:21.890088378Z"
     description: A Helm chart for installing Cloudflow
     digest: 320ba5d02c98f3dc9dd0f7ded59eb1aa11e71947c4ff5b5235dca8c8f1482d03
     home: https://cloudflow.io
@@ -696,7 +707,7 @@ entries:
     version: 2.0.13
   - apiVersion: v1
     appVersion: 2.0.13-RC3
-    created: "2021-01-23T01:53:23.843285496Z"
+    created: "2021-01-24T01:55:21.889447668Z"
     description: A Helm chart for installing Cloudflow
     digest: 3d131f01552e6761fd92c3e8ceff69222269dcca3c72e90bbce207d7d2872786
     home: https://cloudflow.io
@@ -707,7 +718,7 @@ entries:
     version: 2.0.13-RC3
   - apiVersion: v1
     appVersion: 2.0.13-RC2
-    created: "2021-01-23T01:53:23.842700486Z"
+    created: "2021-01-24T01:55:21.88886766Z"
     description: A Helm chart for installing Cloudflow
     digest: 2890f8e81668b36a63b0de7767ea5c868c0b69dd7c9d3a2a7be6433836b7a512
     home: https://cloudflow.io
@@ -718,7 +729,7 @@ entries:
     version: 2.0.13-RC2
   - apiVersion: v1
     appVersion: 2.0.13-RC1
-    created: "2021-01-23T01:53:23.842170777Z"
+    created: "2021-01-24T01:55:21.888303351Z"
     description: A Helm chart for installing Cloudflow
     digest: 8bb29e9edd855e5e8349465af694de72d2137e54e007be6edbb903c19e32c796
     home: https://cloudflow.io
@@ -729,7 +740,7 @@ entries:
     version: 2.0.13-RC1
   - apiVersion: v1
     appVersion: 2.0.12
-    created: "2021-01-23T01:53:23.841621767Z"
+    created: "2021-01-24T01:55:21.887715143Z"
     description: A Helm chart for installing Cloudflow
     digest: e90f565a09b56c2bade0c3113daff0d4f4275f484b5338461a45e10fa97d7efc
     home: https://cloudflow.io
@@ -740,7 +751,7 @@ entries:
     version: 2.0.12
   - apiVersion: v1
     appVersion: 2.0.12-TEST06112020
-    created: "2021-01-23T01:53:23.841086157Z"
+    created: "2021-01-24T01:55:21.887138234Z"
     description: A Helm chart for installing Cloudflow
     digest: 865cdf60621863a7f020be3e687d55e76c60b8cf8ee81aa7f8f3569ef03ac456
     home: https://cloudflow.io
@@ -751,7 +762,7 @@ entries:
     version: 2.0.12-TEST06112020
   - apiVersion: v1
     appVersion: 2.0.12-NIGHTLY11112020
-    created: "2021-01-23T01:53:23.840527947Z"
+    created: "2021-01-24T01:55:21.886557826Z"
     description: A Helm chart for installing Cloudflow
     digest: 73690b1c4aae4eee42335a5f10199b341c963b6134c22cafc5d1e439d212a2ce
     home: https://cloudflow.io
@@ -762,7 +773,7 @@ entries:
     version: 2.0.12-NIGHTLY11112020
   - apiVersion: v1
     appVersion: 2.0.12-NIGHTLY10112020
-    created: "2021-01-23T01:53:23.839574731Z"
+    created: "2021-01-24T01:55:21.885956017Z"
     description: A Helm chart for installing Cloudflow
     digest: c690481c2fde357487b9b5acdfe61e8ff230792a500f894d41672adb270b5770
     home: https://cloudflow.io
@@ -773,7 +784,7 @@ entries:
     version: 2.0.12-NIGHTLY10112020
   - apiVersion: v1
     appVersion: 2.0.12-NIGHTLY09112020
-    created: "2021-01-23T01:53:23.838878718Z"
+    created: "2021-01-24T01:55:21.885391208Z"
     description: A Helm chart for installing Cloudflow
     digest: b57a740b6fa340e0b588e49a108af5b29394dc200ff4f2bf7429013441d09d86
     home: https://cloudflow.io
@@ -784,7 +795,7 @@ entries:
     version: 2.0.12-NIGHTLY09112020
   - apiVersion: v1
     appVersion: 2.0.12-NIGHTLY08112020
-    created: "2021-01-23T01:53:23.838169906Z"
+    created: "2021-01-24T01:55:21.8848061Z"
     description: A Helm chart for installing Cloudflow
     digest: 8441b1cd9fce779a34437c693e7307189a3241563fa6d808ee49c6dc9c70fc1e
     home: https://cloudflow.io
@@ -795,7 +806,7 @@ entries:
     version: 2.0.12-NIGHTLY08112020
   - apiVersion: v1
     appVersion: 2.0.12-NIGHTLY07112020
-    created: "2021-01-23T01:53:23.837328591Z"
+    created: "2021-01-24T01:55:21.884222291Z"
     description: A Helm chart for installing Cloudflow
     digest: 23660f3e8ab2f291ce497696cfb0efbbaf7fdd8b5ac2d168d2c2a6c0739748c1
     home: https://cloudflow.io
@@ -806,7 +817,7 @@ entries:
     version: 2.0.12-NIGHTLY07112020
   - apiVersion: v1
     appVersion: 2.0.12-NIGHTLY04112020
-    created: "2021-01-23T01:53:23.836800782Z"
+    created: "2021-01-24T01:55:21.883642882Z"
     description: A Helm chart for installing Cloudflow
     digest: 2a43ac1dadaea5c2ed97dcd38178fcb671f896a5105f2921c6efe6964f1dc86f
     home: https://cloudflow.io
@@ -817,7 +828,7 @@ entries:
     version: 2.0.12-NIGHTLY04112020
   - apiVersion: v1
     appVersion: 2.0.12-NIGHTLY03112020
-    created: "2021-01-23T01:53:23.836259672Z"
+    created: "2021-01-24T01:55:21.883034873Z"
     description: A Helm chart for installing Cloudflow
     digest: 6a601c4cbca5d372fa6a1ff9aaf68da0871de10cab9ef018b0d8fe1e8d5d82be
     home: https://cloudflow.io
@@ -828,7 +839,7 @@ entries:
     version: 2.0.12-NIGHTLY03112020
   - apiVersion: v1
     appVersion: 2.0.12-31102020
-    created: "2021-01-23T01:53:23.835709362Z"
+    created: "2021-01-24T01:55:21.882449365Z"
     description: A Helm chart for installing Cloudflow
     digest: 1a0beebc335ffe593f4fb27e16520754abca5fcaac59459435001b24c5c59ff2
     home: https://cloudflow.io
@@ -839,7 +850,7 @@ entries:
     version: 2.0.12-31102020
   - apiVersion: v1
     appVersion: 2.0.11
-    created: "2021-01-23T01:53:23.835113452Z"
+    created: "2021-01-24T01:55:21.881795955Z"
     description: A Helm chart for installing Cloudflow
     digest: c504050ff91297fa397227a5cf38f4d1338cd8a2b1ab9823a61310ff7ab5865a
     home: https://cloudflow.io
@@ -850,7 +861,7 @@ entries:
     version: 2.0.11
   - apiVersion: v1
     appVersion: 2.0.11-RC9
-    created: "2021-01-23T01:53:23.834550642Z"
+    created: "2021-01-24T01:55:21.881207646Z"
     description: A Helm chart for installing Cloudflow
     digest: 055a0270016f17dede3a7961c05029b0a11e6af942346e739276581f00aad20b
     home: https://cloudflow.io
@@ -861,7 +872,7 @@ entries:
     version: 2.0.11-RC9
   - apiVersion: v1
     appVersion: 2.0.11-RC8
-    created: "2021-01-23T01:53:23.834021132Z"
+    created: "2021-01-24T01:55:21.880554036Z"
     description: A Helm chart for installing Cloudflow
     digest: 743ef5725ea5b79b2660ab7b3560a4325774f725a6789e3e5d1db5b6ead92257
     home: https://cloudflow.io
@@ -872,7 +883,7 @@ entries:
     version: 2.0.11-RC8
   - apiVersion: v1
     appVersion: 2.0.11-RC5
-    created: "2021-01-23T01:53:23.833487223Z"
+    created: "2021-01-24T01:55:21.879876526Z"
     description: A Helm chart for installing Cloudflow
     digest: 8beca68d87c02d415f29bf5a2b3c6a02d3ccca7099f10f29d22078c8c6cb0732
     home: https://cloudflow.io
@@ -883,7 +894,7 @@ entries:
     version: 2.0.11-RC5
   - apiVersion: v1
     appVersion: 2.0.11-RC3
-    created: "2021-01-23T01:53:23.832959114Z"
+    created: "2021-01-24T01:55:21.878739109Z"
     description: A Helm chart for installing Cloudflow
     digest: 53356578fd494bfde691eed137c8252dcf65c49e620bce2e323b945781d9d7a5
     home: https://cloudflow.io
@@ -894,7 +905,7 @@ entries:
     version: 2.0.11-RC3
   - apiVersion: v1
     appVersion: 2.0.11-RC11
-    created: "2021-01-23T01:53:23.832437305Z"
+    created: "2021-01-24T01:55:21.877997098Z"
     description: A Helm chart for installing Cloudflow
     digest: 1e52e67e2a7b3b2968f115c3d6a86ae0e9118f5aa6a0f4d2c09e01dd851d37b7
     home: https://cloudflow.io
@@ -905,7 +916,7 @@ entries:
     version: 2.0.11-RC11
   - apiVersion: v1
     appVersion: 2.0.11-RC10
-    created: "2021-01-23T01:53:23.831907895Z"
+    created: "2021-01-24T01:55:21.877262887Z"
     description: A Helm chart for installing Cloudflow
     digest: 3641b2b49479f1d28a75c93191ed77f2381aee3fe459cbb4d254689bdaa83bd7
     home: https://cloudflow.io
@@ -916,7 +927,7 @@ entries:
     version: 2.0.11-RC10
   - apiVersion: v1
     appVersion: 2.0.11-30102020
-    created: "2021-01-23T01:53:23.831364586Z"
+    created: "2021-01-24T01:55:21.876221872Z"
     description: A Helm chart for installing Cloudflow
     digest: 20170e0d801c443bbb42f4b1111564d6a172a9efb9b7d78d85fb7d8799d857b7
     home: https://cloudflow.io
@@ -927,7 +938,7 @@ entries:
     version: 2.0.11-30102020
   - apiVersion: v1
     appVersion: 2.0.11-29102020
-    created: "2021-01-23T01:53:23.830792975Z"
+    created: "2021-01-24T01:55:21.875640463Z"
     description: A Helm chart for installing Cloudflow
     digest: 5c3143fce19e1257bd11c488fb06c3fcdc2b372067df78ca61f533618be09008
     home: https://cloudflow.io
@@ -938,7 +949,7 @@ entries:
     version: 2.0.11-29102020
   - apiVersion: v1
     appVersion: 2.0.11-28102020
-    created: "2021-01-23T01:53:23.830240066Z"
+    created: "2021-01-24T01:55:21.875055555Z"
     description: A Helm chart for installing Cloudflow
     digest: 3b16acdc777da405dbed98b38fb5ca6f2b416fb5a8e867e4c4fce663bfa1740e
     home: https://cloudflow.io
@@ -949,7 +960,7 @@ entries:
     version: 2.0.11-28102020
   - apiVersion: v1
     appVersion: 2.0.11-26102020
-    created: "2021-01-23T01:53:23.829704056Z"
+    created: "2021-01-24T01:55:21.874469046Z"
     description: A Helm chart for installing Cloudflow
     digest: ce3ba47fa37874ab276e5eb9e71c989b982124954d6a8e096b0d3d6352c77afc
     home: https://cloudflow.io
@@ -960,7 +971,7 @@ entries:
     version: 2.0.11-26102020
   - apiVersion: v1
     appVersion: 2.0.11-25102020
-    created: "2021-01-23T01:53:23.829164147Z"
+    created: "2021-01-24T01:55:21.873836237Z"
     description: A Helm chart for installing Cloudflow
     digest: da4bbf6b14aea60d4155493883c29d95f2a14d5edcaff521c375d7635becf3b5
     home: https://cloudflow.io
@@ -971,7 +982,7 @@ entries:
     version: 2.0.11-25102020
   - apiVersion: v1
     appVersion: 2.0.11-24102020
-    created: "2021-01-23T01:53:23.828589036Z"
+    created: "2021-01-24T01:55:21.873254228Z"
     description: A Helm chart for installing Cloudflow
     digest: ba25dedec666396836726426b1c015273cee5dac257c3a717ad110bb9a2269fd
     home: https://cloudflow.io
@@ -982,7 +993,7 @@ entries:
     version: 2.0.11-24102020
   - apiVersion: v1
     appVersion: 2.0.11-23102020
-    created: "2021-01-23T01:53:23.827491717Z"
+    created: "2021-01-24T01:55:21.872665619Z"
     description: A Helm chart for installing Cloudflow
     digest: f183477d5efea088b7c992494f05bce812c16184c389f2aa19f62d5fa6960f1a
     home: https://cloudflow.io
@@ -993,7 +1004,7 @@ entries:
     version: 2.0.11-23102020
   - apiVersion: v1
     appVersion: 2.0.11-10222020
-    created: "2021-01-23T01:53:23.826788005Z"
+    created: "2021-01-24T01:55:21.87206371Z"
     description: A Helm chart for installing Cloudflow
     digest: 0761050d6f679528b8843c4e2f75ff01ca23e4d6bb87f7a60129b8ded3460d8d
     home: https://cloudflow.io
@@ -1004,7 +1015,7 @@ entries:
     version: 2.0.11-10222020
   - apiVersion: v1
     appVersion: 2.0.10
-    created: "2021-01-23T01:53:23.825181776Z"
+    created: "2021-01-24T01:55:21.871466501Z"
     description: A Helm chart for installing Cloudflow
     digest: 7d174f4ef46d400cc5cc87cc25770a473aab24c0fc62a75d5b001c02eaf6e92a
     home: https://cloudflow.io
@@ -1015,7 +1026,7 @@ entries:
     version: 2.0.10
   - apiVersion: v1
     appVersion: 2.0.10-RC2
-    created: "2021-01-23T01:53:23.824704568Z"
+    created: "2021-01-24T01:55:21.870945894Z"
     description: A Helm chart for installing Cloudflow
     digest: 604464f66a919e6e308fa6338e3057f07304a79ca491055c72c85400996300f8
     home: https://cloudflow.io
@@ -1026,7 +1037,7 @@ entries:
     version: 2.0.10-RC2
   - apiVersion: v1
     appVersion: 2.0.9
-    created: "2021-01-23T01:53:23.880964562Z"
+    created: "2021-01-24T01:55:21.931880699Z"
     description: A Helm chart for installing Cloudflow
     digest: 03a72647553541ed2bb87ad32d9b929fd51d8c11dc47207d36d80ad1ced649cf
     home: https://cloudflow.io
@@ -1037,7 +1048,7 @@ entries:
     version: 2.0.9
   - apiVersion: v1
     appVersion: 0.0.0-T261120201419
-    created: "2021-01-23T01:53:23.82423456Z"
+    created: "2021-01-24T01:55:21.870421486Z"
     description: A Helm chart for installing Cloudflow
     digest: ff4b5acef0210127872a1c7144211e465ffebd0e3d447f0280749544aa63ab6a
     home: https://cloudflow.io
@@ -1048,7 +1059,7 @@ entries:
     version: 0.0.0-T261120201419
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY30112020
-    created: "2021-01-23T01:53:23.82371385Z"
+    created: "2021-01-24T01:55:21.869779876Z"
     description: A Helm chart for installing Cloudflow
     digest: b675c7fba7e3f6091c10d0265f026399439c40b9792b6aa548f9e819c0768ffe
     home: https://cloudflow.io
@@ -1059,7 +1070,7 @@ entries:
     version: 0.0.0-NIGHTLY30112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY29112020
-    created: "2021-01-23T01:53:23.823173741Z"
+    created: "2021-01-24T01:55:21.869198868Z"
     description: A Helm chart for installing Cloudflow
     digest: 9afca101982c2d35e3398affae32ec1814a61dac1b1a72d100f5d1002971f314
     home: https://cloudflow.io
@@ -1070,7 +1081,7 @@ entries:
     version: 0.0.0-NIGHTLY29112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY28112020
-    created: "2021-01-23T01:53:23.822651332Z"
+    created: "2021-01-24T01:55:21.868606659Z"
     description: A Helm chart for installing Cloudflow
     digest: f085d56a0b45e154c452a1e0ea21ef21e54822af59218213840863d4e274b81b
     home: https://cloudflow.io
@@ -1081,7 +1092,7 @@ entries:
     version: 0.0.0-NIGHTLY28112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY27112020
-    created: "2021-01-23T01:53:23.822123322Z"
+    created: "2021-01-24T01:55:21.86802315Z"
     description: A Helm chart for installing Cloudflow
     digest: 120a10c16a24ac85aa1140d0a08af8c16bdab3263ddf5dd3a7a6767002059021
     home: https://cloudflow.io
@@ -1092,7 +1103,7 @@ entries:
     version: 0.0.0-NIGHTLY27112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY26112020
-    created: "2021-01-23T01:53:23.821604713Z"
+    created: "2021-01-24T01:55:21.867449242Z"
     description: A Helm chart for installing Cloudflow
     digest: a465a864a851aa68a800c221363253e00e6e00aee1678022c856ed8a030c4c11
     home: https://cloudflow.io
@@ -1103,7 +1114,7 @@ entries:
     version: 0.0.0-NIGHTLY26112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY25112020
-    created: "2021-01-23T01:53:23.821071904Z"
+    created: "2021-01-24T01:55:21.866937134Z"
     description: A Helm chart for installing Cloudflow
     digest: 959f1c745a3a0c95e6b106c481501f1c501020548477123b44792e10fd25df12
     home: https://cloudflow.io
@@ -1114,7 +1125,7 @@ entries:
     version: 0.0.0-NIGHTLY25112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY24112020
-    created: "2021-01-23T01:53:23.820549394Z"
+    created: "2021-01-24T01:55:21.866344925Z"
     description: A Helm chart for installing Cloudflow
     digest: 6e57f247016d875861f1fc32338a9f02a54709bfc1f37443bbf614de9fea0666
     home: https://cloudflow.io
@@ -1125,7 +1136,7 @@ entries:
     version: 0.0.0-NIGHTLY24112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY23112020
-    created: "2021-01-23T01:53:23.819999985Z"
+    created: "2021-01-24T01:55:21.865727516Z"
     description: A Helm chart for installing Cloudflow
     digest: 87bde975f5b7913031c4698519ff945eb29e532da4b1af7809108be38120293f
     home: https://cloudflow.io
@@ -1136,7 +1147,7 @@ entries:
     version: 0.0.0-NIGHTLY23112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY22112020
-    created: "2021-01-23T01:53:23.819477975Z"
+    created: "2021-01-24T01:55:21.864753902Z"
     description: A Helm chart for installing Cloudflow
     digest: ac90af16025010408bbfc360ea7c427350b33c6c461a4822f3a6f3dd343a3428
     home: https://cloudflow.io
@@ -1147,7 +1158,7 @@ entries:
     version: 0.0.0-NIGHTLY22112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY21112020
-    created: "2021-01-23T01:53:23.818923166Z"
+    created: "2021-01-24T01:55:21.863428382Z"
     description: A Helm chart for installing Cloudflow
     digest: c37c949643ed013cf17baf7164e5d590340885e0df2b5d50885cbcd404bf5c31
     home: https://cloudflow.io
@@ -1158,7 +1169,7 @@ entries:
     version: 0.0.0-NIGHTLY21112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY20112020
-    created: "2021-01-23T01:53:23.818397556Z"
+    created: "2021-01-24T01:55:21.862687571Z"
     description: A Helm chart for installing Cloudflow
     digest: 204a5dc1c10af5b764d5450ee2b10023111a6b187bd0798894e8bb88722dd13a
     home: https://cloudflow.io
@@ -1169,7 +1180,7 @@ entries:
     version: 0.0.0-NIGHTLY20112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY19112020
-    created: "2021-01-23T01:53:23.817873947Z"
+    created: "2021-01-24T01:55:21.86193836Z"
     description: A Helm chart for installing Cloudflow
     digest: bd798854f048851bab00829c7cab7cfe61699f4785c96b039d3855f6058506b0
     home: https://cloudflow.io
@@ -1180,7 +1191,7 @@ entries:
     version: 0.0.0-NIGHTLY19112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY18122020
-    created: "2021-01-23T01:53:23.817344838Z"
+    created: "2021-01-24T01:55:21.86060164Z"
     description: A Helm chart for installing Cloudflow
     digest: de30b93f4b9dca19eb3950ad1670bcefa1e943a3ba4093bff913b03b5fa3f6dd
     home: https://cloudflow.io
@@ -1191,7 +1202,7 @@ entries:
     version: 0.0.0-NIGHTLY18122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY18112020
-    created: "2021-01-23T01:53:23.816811028Z"
+    created: "2021-01-24T01:55:21.860043132Z"
     description: A Helm chart for installing Cloudflow
     digest: ea51dd6904938cdc850de449c096b643d39981af535ef3590536575e0a8b9a81
     home: https://cloudflow.io
@@ -1202,7 +1213,7 @@ entries:
     version: 0.0.0-NIGHTLY18112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY17122020
-    created: "2021-01-23T01:53:23.816251518Z"
+    created: "2021-01-24T01:55:21.859481023Z"
     description: A Helm chart for installing Cloudflow
     digest: e39caaa7523d3ed35433db744adc5d0873aa0f4901f7c46a4514f1701f55add6
     home: https://cloudflow.io
@@ -1213,7 +1224,7 @@ entries:
     version: 0.0.0-NIGHTLY17122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY17112020
-    created: "2021-01-23T01:53:23.815247201Z"
+    created: "2021-01-24T01:55:21.858921515Z"
     description: A Helm chart for installing Cloudflow
     digest: a88b8f767c642b2cd2148bd10796121f4a191ef5385cd6ebb3e11874e7c4a6c6
     home: https://cloudflow.io
@@ -1224,7 +1235,7 @@ entries:
     version: 0.0.0-NIGHTLY17112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY16122020
-    created: "2021-01-23T01:53:23.814444486Z"
+    created: "2021-01-24T01:55:21.858206704Z"
     description: A Helm chart for installing Cloudflow
     digest: c6e76429f0e272252aef5ff8e607c558ed4d595d91864eb8f2b8c9fc1003b143
     home: https://cloudflow.io
@@ -1235,7 +1246,7 @@ entries:
     version: 0.0.0-NIGHTLY16122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY14122020
-    created: "2021-01-23T01:53:23.813085962Z"
+    created: "2021-01-24T01:55:21.857098488Z"
     description: A Helm chart for installing Cloudflow
     digest: 3fc27053a509e31117a0c003faa8a60b2e30044e5b823c40f6b2345d1d50bd57
     home: https://cloudflow.io
@@ -1246,7 +1257,7 @@ entries:
     version: 0.0.0-NIGHTLY14122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY13122020
-    created: "2021-01-23T01:53:23.806069738Z"
+    created: "2021-01-24T01:55:21.855987271Z"
     description: A Helm chart for installing Cloudflow
     digest: 3d77161d38ccc24b97a44a50091e01eb34ee58ff8f837e621c0f4d42b64e5a44
     home: https://cloudflow.io
@@ -1257,7 +1268,7 @@ entries:
     version: 0.0.0-NIGHTLY13122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY13112020
-    created: "2021-01-23T01:53:23.805561329Z"
+    created: "2021-01-24T01:55:21.854898055Z"
     description: A Helm chart for installing Cloudflow
     digest: 4f995152f6793e468451d15981785ae7142c9e8e1a059dac1e65c3ebe1c69acd
     home: https://cloudflow.io
@@ -1268,7 +1279,7 @@ entries:
     version: 0.0.0-NIGHTLY13112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY12122020
-    created: "2021-01-23T01:53:23.80505092Z"
+    created: "2021-01-24T01:55:21.85319833Z"
     description: A Helm chart for installing Cloudflow
     digest: 8b9d07ed5743969609f2e0d660c0c4a62ae16a56b54ce6eed7f7419e75d9f5c8
     home: https://cloudflow.io
@@ -1279,7 +1290,7 @@ entries:
     version: 0.0.0-NIGHTLY12122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY12112020
-    created: "2021-01-23T01:53:23.804536611Z"
+    created: "2021-01-24T01:55:21.852121914Z"
     description: A Helm chart for installing Cloudflow
     digest: 3aa26e803aa8735e67b83279b7900abc4876c27e89fd0000973ef6d00cc64c5a
     home: https://cloudflow.io
@@ -1290,7 +1301,7 @@ entries:
     version: 0.0.0-NIGHTLY12112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY11122020
-    created: "2021-01-23T01:53:23.804000802Z"
+    created: "2021-01-24T01:55:21.851027598Z"
     description: A Helm chart for installing Cloudflow
     digest: dc9e2b90e61298651f68af00d2f8370d1ede3a43ecbf0fde7eadc98043057e1d
     home: https://cloudflow.io
@@ -1301,7 +1312,7 @@ entries:
     version: 0.0.0-NIGHTLY11122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY09122020
-    created: "2021-01-23T01:53:23.803440392Z"
+    created: "2021-01-24T01:55:21.84981908Z"
     description: A Helm chart for installing Cloudflow
     digest: e802956e1684bbc7610ab9a63ba6d519932c9cdc35a856cf516bfd83f39dd364
     home: https://cloudflow.io
@@ -1312,7 +1323,7 @@ entries:
     version: 0.0.0-NIGHTLY09122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY08122020
-    created: "2021-01-23T01:53:23.802516476Z"
+    created: "2021-01-24T01:55:21.828712966Z"
     description: A Helm chart for installing Cloudflow
     digest: 96ae93bcfb0273849453a5766186c87a07cf9777e622c349e23619ed9b0f7a75
     home: https://cloudflow.io
@@ -1323,7 +1334,7 @@ entries:
     version: 0.0.0-NIGHTLY08122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY07122020
-    created: "2021-01-23T01:53:23.801987566Z"
+    created: "2021-01-24T01:55:21.828094057Z"
     description: A Helm chart for installing Cloudflow
     digest: 43daa5681ac4a7bbf86293705d9ec87740da6e5f150f9744b4b3c67c59039026
     home: https://cloudflow.io
@@ -1334,7 +1345,7 @@ entries:
     version: 0.0.0-NIGHTLY07122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY06122020
-    created: "2021-01-23T01:53:23.801459757Z"
+    created: "2021-01-24T01:55:21.827513348Z"
     description: A Helm chart for installing Cloudflow
     digest: a1966766c6078cc8af940b0ecdaceef626a41365274c85dbe99d2510ed705211
     home: https://cloudflow.io
@@ -1345,7 +1356,7 @@ entries:
     version: 0.0.0-NIGHTLY06122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY04122020
-    created: "2021-01-23T01:53:23.800928448Z"
+    created: "2021-01-24T01:55:21.82692914Z"
     description: A Helm chart for installing Cloudflow
     digest: 3d8d79d3d3baf753daf6e2f9389a586a2eed602774d4dd2b8c94e7c522448ab5
     home: https://cloudflow.io
@@ -1356,7 +1367,7 @@ entries:
     version: 0.0.0-NIGHTLY04122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY02122020
-    created: "2021-01-23T01:53:23.800383638Z"
+    created: "2021-01-24T01:55:21.826324331Z"
     description: A Helm chart for installing Cloudflow
     digest: 5462e8f2434c47f2836f2d4b49313d819e624ff9c679c715379dd61582fc52dc
     home: https://cloudflow.io
@@ -1367,7 +1378,7 @@ entries:
     version: 0.0.0-NIGHTLY02122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY01122020
-    created: "2021-01-23T01:53:23.799765727Z"
+    created: "2021-01-24T01:55:21.825232014Z"
     description: A Helm chart for installing Cloudflow
     digest: 515f4378c78909d520884eb83aa958a817e9d8e2bb9cfad45d39dae5237c3177
     home: https://cloudflow.io
@@ -1379,7 +1390,7 @@ entries:
   cloudflow-enterprise-components:
   - apiVersion: v1
     appVersion: 2.0.22
-    created: "2021-01-23T01:53:24.064751809Z"
+    created: "2021-01-24T01:55:22.140260092Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1391,7 +1402,7 @@ entries:
     version: 2.0.22
   - apiVersion: v1
     appVersion: 2.0.22-TEST7
-    created: "2021-01-23T01:53:24.063390685Z"
+    created: "2021-01-24T01:55:22.138716969Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1403,7 +1414,7 @@ entries:
     version: 2.0.22-TEST7
   - apiVersion: v1
     appVersion: 2.0.22-TEST6
-    created: "2021-01-23T01:53:24.06029113Z"
+    created: "2021-01-24T01:55:22.136865541Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1415,7 +1426,7 @@ entries:
     version: 2.0.22-TEST6
   - apiVersion: v1
     appVersion: 2.0.22-TEST4
-    created: "2021-01-23T01:53:24.058558999Z"
+    created: "2021-01-24T01:55:22.134676809Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1427,7 +1438,7 @@ entries:
     version: 2.0.22-TEST4
   - apiVersion: v1
     appVersion: 2.0.22-RC2
-    created: "2021-01-23T01:53:24.056568164Z"
+    created: "2021-01-24T01:55:22.133168186Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1438,8 +1449,20 @@ entries:
     - charts/cloudflow-enterprise-components-2.0.22-RC2.tgz
     version: 2.0.22-RC2
   - apiVersion: v1
+    appVersion: 2.0.22-NIGHTLY20210124
+    created: "2021-01-24T01:55:22.131678564Z"
+    dependencies:
+    - name: enterprise-suite
+      repository: https://repo.lightbend.com/helm-charts/
+      version: 1.2.12
+    digest: 83a5e88f20fdd8e441eb3ec678250993d4bd6560733f3257e2d0952ef5957733
+    name: cloudflow-enterprise-components
+    urls:
+    - charts/cloudflow-enterprise-components-2.0.22-NIGHTLY20210124.tgz
+    version: 2.0.22-NIGHTLY20210124
+  - apiVersion: v1
     appVersion: 2.0.22-NIGHTLY20210123
-    created: "2021-01-23T01:53:24.05516874Z"
+    created: "2021-01-24T01:55:22.130171642Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1451,7 +1474,7 @@ entries:
     version: 2.0.22-NIGHTLY20210123
   - apiVersion: v1
     appVersion: 2.0.22-NIGHTLY20210121
-    created: "2021-01-23T01:53:24.053621812Z"
+    created: "2021-01-24T01:55:22.128565818Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1463,7 +1486,7 @@ entries:
     version: 2.0.22-NIGHTLY20210121
   - apiVersion: v1
     appVersion: 2.0.22-NIGHTLY20210120
-    created: "2021-01-23T01:53:24.052295389Z"
+    created: "2021-01-24T01:55:22.127068196Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1475,7 +1498,7 @@ entries:
     version: 2.0.22-NIGHTLY20210120
   - apiVersion: v1
     appVersion: 2.0.22-NIGHTLY20210119
-    created: "2021-01-23T01:53:24.050925865Z"
+    created: "2021-01-24T01:55:22.125559274Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1487,7 +1510,7 @@ entries:
     version: 2.0.22-NIGHTLY20210119
   - apiVersion: v1
     appVersion: 2.0.22-NIGHTLY20210118
-    created: "2021-01-23T01:53:24.049585241Z"
+    created: "2021-01-24T01:55:22.124076452Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1499,7 +1522,7 @@ entries:
     version: 2.0.22-NIGHTLY20210118
   - apiVersion: v1
     appVersion: 2.0.22-NIGHTLY20210117
-    created: "2021-01-23T01:53:24.048195017Z"
+    created: "2021-01-24T01:55:22.122544229Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1511,7 +1534,7 @@ entries:
     version: 2.0.22-NIGHTLY20210117
   - apiVersion: v1
     appVersion: 2.0.21
-    created: "2021-01-23T01:53:24.046818892Z"
+    created: "2021-01-24T01:55:22.120727102Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1523,7 +1546,7 @@ entries:
     version: 2.0.21
   - apiVersion: v1
     appVersion: 2.0.21-RC2
-    created: "2021-01-23T01:53:24.045122962Z"
+    created: "2021-01-24T01:55:22.11858027Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1535,7 +1558,7 @@ entries:
     version: 2.0.21-RC2
   - apiVersion: v1
     appVersion: 2.0.21-RC1
-    created: "2021-01-23T01:53:24.043108527Z"
+    created: "2021-01-24T01:55:22.117044747Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1547,7 +1570,7 @@ entries:
     version: 2.0.21-RC1
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY21122020
-    created: "2021-01-23T01:53:24.041738803Z"
+    created: "2021-01-24T01:55:22.115579326Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1559,7 +1582,7 @@ entries:
     version: 2.0.21-NIGHTLY21122020
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210116
-    created: "2021-01-23T01:53:24.040378579Z"
+    created: "2021-01-24T01:55:22.114013902Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1571,7 +1594,7 @@ entries:
     version: 2.0.21-NIGHTLY20210116
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210115
-    created: "2021-01-23T01:53:24.038998454Z"
+    created: "2021-01-24T01:55:22.112470179Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1583,7 +1606,7 @@ entries:
     version: 2.0.21-NIGHTLY20210115
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210114
-    created: "2021-01-23T01:53:24.037659131Z"
+    created: "2021-01-24T01:55:22.110990757Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1595,7 +1618,7 @@ entries:
     version: 2.0.21-NIGHTLY20210114
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210113
-    created: "2021-01-23T01:53:24.036324107Z"
+    created: "2021-01-24T01:55:22.109460135Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1607,7 +1630,7 @@ entries:
     version: 2.0.21-NIGHTLY20210113
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210112
-    created: "2021-01-23T01:53:24.034965883Z"
+    created: "2021-01-24T01:55:22.107887811Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1619,7 +1642,7 @@ entries:
     version: 2.0.21-NIGHTLY20210112
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210111
-    created: "2021-01-23T01:53:24.033580959Z"
+    created: "2021-01-24T01:55:22.106280288Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1631,7 +1654,7 @@ entries:
     version: 2.0.21-NIGHTLY20210111
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210110
-    created: "2021-01-23T01:53:24.032097132Z"
+    created: "2021-01-24T01:55:22.104095055Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1643,7 +1666,7 @@ entries:
     version: 2.0.21-NIGHTLY20210110
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210109
-    created: "2021-01-23T01:53:24.030011696Z"
+    created: "2021-01-24T01:55:22.101840422Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1655,7 +1678,7 @@ entries:
     version: 2.0.21-NIGHTLY20210109
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210108
-    created: "2021-01-23T01:53:24.028424068Z"
+    created: "2021-01-24T01:55:22.100277499Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1667,7 +1690,7 @@ entries:
     version: 2.0.21-NIGHTLY20210108
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210107
-    created: "2021-01-23T01:53:24.027068644Z"
+    created: "2021-01-24T01:55:22.098676575Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1679,7 +1702,7 @@ entries:
     version: 2.0.21-NIGHTLY20210107
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210106
-    created: "2021-01-23T01:53:24.02571912Z"
+    created: "2021-01-24T01:55:22.097088251Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1691,7 +1714,7 @@ entries:
     version: 2.0.21-NIGHTLY20210106
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210105
-    created: "2021-01-23T01:53:24.024391697Z"
+    created: "2021-01-24T01:55:22.095614829Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1703,7 +1726,7 @@ entries:
     version: 2.0.21-NIGHTLY20210105
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210104
-    created: "2021-01-23T01:53:24.023014072Z"
+    created: "2021-01-24T01:55:22.094114207Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1715,7 +1738,7 @@ entries:
     version: 2.0.21-NIGHTLY20210104
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210103
-    created: "2021-01-23T01:53:24.021664748Z"
+    created: "2021-01-24T01:55:22.092580984Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1727,7 +1750,7 @@ entries:
     version: 2.0.21-NIGHTLY20210103
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210102
-    created: "2021-01-23T01:53:24.020283224Z"
+    created: "2021-01-24T01:55:22.091027661Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1739,7 +1762,7 @@ entries:
     version: 2.0.21-NIGHTLY20210102
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20210101
-    created: "2021-01-23T01:53:24.0188989Z"
+    created: "2021-01-24T01:55:22.088862429Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1751,7 +1774,7 @@ entries:
     version: 2.0.21-NIGHTLY20210101
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20201231
-    created: "2021-01-23T01:53:24.01719457Z"
+    created: "2021-01-24T01:55:22.086690297Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1763,7 +1786,7 @@ entries:
     version: 2.0.21-NIGHTLY20201231
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20201228
-    created: "2021-01-23T01:53:24.015271836Z"
+    created: "2021-01-24T01:55:22.085170374Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1775,7 +1798,7 @@ entries:
     version: 2.0.21-NIGHTLY20201228
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20201227
-    created: "2021-01-23T01:53:24.013881611Z"
+    created: "2021-01-24T01:55:22.083653852Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1787,7 +1810,7 @@ entries:
     version: 2.0.21-NIGHTLY20201227
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20201226
-    created: "2021-01-23T01:53:24.012545487Z"
+    created: "2021-01-24T01:55:22.082068728Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1799,7 +1822,7 @@ entries:
     version: 2.0.21-NIGHTLY20201226
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20201225
-    created: "2021-01-23T01:53:24.011199264Z"
+    created: "2021-01-24T01:55:22.080657707Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1811,7 +1834,7 @@ entries:
     version: 2.0.21-NIGHTLY20201225
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20201224
-    created: "2021-01-23T01:53:24.00987974Z"
+    created: "2021-01-24T01:55:22.079149585Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1823,7 +1846,7 @@ entries:
     version: 2.0.21-NIGHTLY20201224
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20201223
-    created: "2021-01-23T01:53:24.008551917Z"
+    created: "2021-01-24T01:55:22.077523261Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1835,7 +1858,7 @@ entries:
     version: 2.0.21-NIGHTLY20201223
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20201222
-    created: "2021-01-23T01:53:24.007133592Z"
+    created: "2021-01-24T01:55:22.075920237Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1847,7 +1870,7 @@ entries:
     version: 2.0.21-NIGHTLY20201222
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY20122020
-    created: "2021-01-23T01:53:24.005778368Z"
+    created: "2021-01-24T01:55:22.073863407Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1859,7 +1882,7 @@ entries:
     version: 2.0.21-NIGHTLY20122020
   - apiVersion: v1
     appVersion: 2.0.21-NIGHTLY19122020
-    created: "2021-01-23T01:53:24.004261041Z"
+    created: "2021-01-24T01:55:22.071494572Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1871,7 +1894,7 @@ entries:
     version: 2.0.21-NIGHTLY19122020
   - apiVersion: v1
     appVersion: 2.0.21-DOUBLECHECK20201228
-    created: "2021-01-23T01:53:24.00251501Z"
+    created: "2021-01-24T01:55:22.069916848Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1883,7 +1906,7 @@ entries:
     version: 2.0.21-DOUBLECHECK20201228
   - apiVersion: v1
     appVersion: 2.0.21-CHECK20201230
-    created: "2021-01-23T01:53:24.00081518Z"
+    created: "2021-01-24T01:55:22.068302324Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1895,7 +1918,7 @@ entries:
     version: 2.0.21-CHECK20201230
   - apiVersion: v1
     appVersion: 2.0.21-CHECK20201229
-    created: "2021-01-23T01:53:23.999455256Z"
+    created: "2021-01-24T01:55:22.066715201Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1907,7 +1930,7 @@ entries:
     version: 2.0.21-CHECK20201229
   - apiVersion: v1
     appVersion: 2.0.21-CHECK20201228
-    created: "2021-01-23T01:53:23.998094732Z"
+    created: "2021-01-24T01:55:22.065205478Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1919,7 +1942,7 @@ entries:
     version: 2.0.21-CHECK20201228
   - apiVersion: v1
     appVersion: 2.0.20
-    created: "2021-01-23T01:53:23.996767109Z"
+    created: "2021-01-24T01:55:22.063721756Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1931,7 +1954,7 @@ entries:
     version: 2.0.20
   - apiVersion: v1
     appVersion: 2.0.20-RC1
-    created: "2021-01-23T01:53:23.995435185Z"
+    created: "2021-01-24T01:55:22.062189734Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1943,7 +1966,7 @@ entries:
     version: 2.0.20-RC1
   - apiVersion: v1
     appVersion: 2.0.19
-    created: "2021-01-23T01:53:23.994088062Z"
+    created: "2021-01-24T01:55:22.060490508Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1955,7 +1978,7 @@ entries:
     version: 2.0.19
   - apiVersion: v1
     appVersion: 2.0.19-RC5
-    created: "2021-01-23T01:53:23.992763438Z"
+    created: "2021-01-24T01:55:22.057855969Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1967,7 +1990,7 @@ entries:
     version: 2.0.19-RC5
   - apiVersion: v1
     appVersion: 2.0.19-RC4
-    created: "2021-01-23T01:53:23.991421614Z"
+    created: "2021-01-24T01:55:22.055516235Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1979,7 +2002,7 @@ entries:
     version: 2.0.19-RC4
   - apiVersion: v1
     appVersion: 2.0.19-RC3
-    created: "2021-01-23T01:53:23.989542581Z"
+    created: "2021-01-24T01:55:22.053912711Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -1991,7 +2014,7 @@ entries:
     version: 2.0.19-RC3
   - apiVersion: v1
     appVersion: 2.0.19-RC2
-    created: "2021-01-23T01:53:23.987702549Z"
+    created: "2021-01-24T01:55:22.052270786Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2003,7 +2026,7 @@ entries:
     version: 2.0.19-RC2
   - apiVersion: v1
     appVersion: 2.0.19-RC1
-    created: "2021-01-23T01:53:23.986361625Z"
+    created: "2021-01-24T01:55:22.050690363Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2015,7 +2038,7 @@ entries:
     version: 2.0.19-RC1
   - apiVersion: v1
     appVersion: 2.0.18
-    created: "2021-01-23T01:53:23.985005601Z"
+    created: "2021-01-24T01:55:22.04912074Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2027,7 +2050,7 @@ entries:
     version: 2.0.18
   - apiVersion: v1
     appVersion: 2.0.16
-    created: "2021-01-23T01:53:23.983684478Z"
+    created: "2021-01-24T01:55:22.047526416Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2039,7 +2062,7 @@ entries:
     version: 2.0.16
   - apiVersion: v1
     appVersion: 2.0.15-RC1
-    created: "2021-01-23T01:53:23.982341954Z"
+    created: "2021-01-24T01:55:22.046050894Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2051,7 +2074,7 @@ entries:
     version: 2.0.15-RC1
   - apiVersion: v1
     appVersion: 2.0.15-NIGHTLY-01
-    created: "2021-01-23T01:53:23.98098403Z"
+    created: "2021-01-24T01:55:22.044549972Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2063,7 +2086,7 @@ entries:
     version: 2.0.15-NIGHTLY-01
   - apiVersion: v1
     appVersion: 2.0.15-CF-7
-    created: "2021-01-23T01:53:23.979637006Z"
+    created: "2021-01-24T01:55:22.043026449Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2075,7 +2098,7 @@ entries:
     version: 2.0.15-CF-7
   - apiVersion: v1
     appVersion: 2.0.15-CF-5
-    created: "2021-01-23T01:53:23.978284382Z"
+    created: "2021-01-24T01:55:22.041215922Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2087,7 +2110,7 @@ entries:
     version: 2.0.15-CF-5
   - apiVersion: v1
     appVersion: 2.0.15-AP-17112020
-    created: "2021-01-23T01:53:23.976123544Z"
+    created: "2021-01-24T01:55:22.039269093Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2099,7 +2122,7 @@ entries:
     version: 2.0.15-AP-17112020
   - apiVersion: v1
     appVersion: 2.0.14
-    created: "2021-01-23T01:53:23.974279811Z"
+    created: "2021-01-24T01:55:22.037353065Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2111,7 +2134,7 @@ entries:
     version: 2.0.14
   - apiVersion: v1
     appVersion: 2.0.14-RC1
-    created: "2021-01-23T01:53:23.972949688Z"
+    created: "2021-01-24T01:55:22.035359636Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2123,7 +2146,7 @@ entries:
     version: 2.0.14-RC1
   - apiVersion: v1
     appVersion: 2.0.13
-    created: "2021-01-23T01:53:23.971450561Z"
+    created: "2021-01-24T01:55:22.033823313Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2135,7 +2158,7 @@ entries:
     version: 2.0.13
   - apiVersion: v1
     appVersion: 2.0.13-RC3
-    created: "2021-01-23T01:53:23.970109838Z"
+    created: "2021-01-24T01:55:22.032352991Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2147,7 +2170,7 @@ entries:
     version: 2.0.13-RC3
   - apiVersion: v1
     appVersion: 2.0.13-RC2
-    created: "2021-01-23T01:53:23.968787414Z"
+    created: "2021-01-24T01:55:22.030847069Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2159,7 +2182,7 @@ entries:
     version: 2.0.13-RC2
   - apiVersion: v1
     appVersion: 2.0.13-RC1
-    created: "2021-01-23T01:53:23.967466991Z"
+    created: "2021-01-24T01:55:22.029354946Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2171,7 +2194,7 @@ entries:
     version: 2.0.13-RC1
   - apiVersion: v1
     appVersion: 2.0.12
-    created: "2021-01-23T01:53:23.966093767Z"
+    created: "2021-01-24T01:55:22.027858824Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2183,7 +2206,7 @@ entries:
     version: 2.0.12
   - apiVersion: v1
     appVersion: 2.0.12-TEST06112020
-    created: "2021-01-23T01:53:23.964732843Z"
+    created: "2021-01-24T01:55:22.026280401Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2195,7 +2218,7 @@ entries:
     version: 2.0.12-TEST06112020
   - apiVersion: v1
     appVersion: 2.0.12-NIGHTLY11112020
-    created: "2021-01-23T01:53:23.963373019Z"
+    created: "2021-01-24T01:55:22.024432173Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2207,7 +2230,7 @@ entries:
     version: 2.0.12-NIGHTLY11112020
   - apiVersion: v1
     appVersion: 2.0.12-NIGHTLY10112020
-    created: "2021-01-23T01:53:23.96175369Z"
+    created: "2021-01-24T01:55:22.022352943Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2219,7 +2242,7 @@ entries:
     version: 2.0.12-NIGHTLY10112020
   - apiVersion: v1
     appVersion: 2.0.12-NIGHTLY09112020
-    created: "2021-01-23T01:53:23.959907857Z"
+    created: "2021-01-24T01:55:22.020512015Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2231,7 +2254,7 @@ entries:
     version: 2.0.12-NIGHTLY09112020
   - apiVersion: v1
     appVersion: 2.0.12-NIGHTLY08112020
-    created: "2021-01-23T01:53:23.958164927Z"
+    created: "2021-01-24T01:55:22.018974492Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2243,7 +2266,7 @@ entries:
     version: 2.0.12-NIGHTLY08112020
   - apiVersion: v1
     appVersion: 2.0.12-NIGHTLY07112020
-    created: "2021-01-23T01:53:23.956593599Z"
+    created: "2021-01-24T01:55:22.017495971Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2255,7 +2278,7 @@ entries:
     version: 2.0.12-NIGHTLY07112020
   - apiVersion: v1
     appVersion: 2.0.12-NIGHTLY04112020
-    created: "2021-01-23T01:53:23.955260575Z"
+    created: "2021-01-24T01:55:22.016033849Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2267,7 +2290,7 @@ entries:
     version: 2.0.12-NIGHTLY04112020
   - apiVersion: v1
     appVersion: 2.0.12-NIGHTLY03112020
-    created: "2021-01-23T01:53:23.953899751Z"
+    created: "2021-01-24T01:55:22.014530827Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2279,7 +2302,7 @@ entries:
     version: 2.0.12-NIGHTLY03112020
   - apiVersion: v1
     appVersion: 2.0.12-31102020
-    created: "2021-01-23T01:53:23.952574628Z"
+    created: "2021-01-24T01:55:22.012970203Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2291,7 +2314,7 @@ entries:
     version: 2.0.12-31102020
   - apiVersion: v1
     appVersion: 2.0.11
-    created: "2021-01-23T01:53:23.951199203Z"
+    created: "2021-01-24T01:55:22.011458181Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2303,7 +2326,7 @@ entries:
     version: 2.0.11
   - apiVersion: v1
     appVersion: 2.0.11-RC9
-    created: "2021-01-23T01:53:23.949832579Z"
+    created: "2021-01-24T01:55:22.009625754Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2315,7 +2338,7 @@ entries:
     version: 2.0.11-RC9
   - apiVersion: v1
     appVersion: 2.0.11-RC8
-    created: "2021-01-23T01:53:23.948456155Z"
+    created: "2021-01-24T01:55:22.007462022Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2327,7 +2350,7 @@ entries:
     version: 2.0.11-RC8
   - apiVersion: v1
     appVersion: 2.0.11-RC5
-    created: "2021-01-23T01:53:23.946717124Z"
+    created: "2021-01-24T01:55:22.005949199Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2339,7 +2362,7 @@ entries:
     version: 2.0.11-RC5
   - apiVersion: v1
     appVersion: 2.0.11-RC3
-    created: "2021-01-23T01:53:23.944980094Z"
+    created: "2021-01-24T01:55:22.004388676Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2351,7 +2374,7 @@ entries:
     version: 2.0.11-RC3
   - apiVersion: v1
     appVersion: 2.0.11-RC11
-    created: "2021-01-23T01:53:23.943311264Z"
+    created: "2021-01-24T01:55:22.002871154Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2363,7 +2386,7 @@ entries:
     version: 2.0.11-RC11
   - apiVersion: v1
     appVersion: 2.0.11-RC10
-    created: "2021-01-23T01:53:23.94197314Z"
+    created: "2021-01-24T01:55:22.00128803Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2375,7 +2398,7 @@ entries:
     version: 2.0.11-RC10
   - apiVersion: v1
     appVersion: 2.0.11-30102020
-    created: "2021-01-23T01:53:23.940636117Z"
+    created: "2021-01-24T01:55:21.999757607Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2387,7 +2410,7 @@ entries:
     version: 2.0.11-30102020
   - apiVersion: v1
     appVersion: 2.0.11-29102020
-    created: "2021-01-23T01:53:23.939314393Z"
+    created: "2021-01-24T01:55:21.998192384Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2399,7 +2422,7 @@ entries:
     version: 2.0.11-29102020
   - apiVersion: v1
     appVersion: 2.0.11-28102020
-    created: "2021-01-23T01:53:23.93796347Z"
+    created: "2021-01-24T01:55:21.996643261Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2411,7 +2434,7 @@ entries:
     version: 2.0.11-28102020
   - apiVersion: v1
     appVersion: 2.0.11-26102020
-    created: "2021-01-23T01:53:23.936615846Z"
+    created: "2021-01-24T01:55:21.994847834Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2423,7 +2446,7 @@ entries:
     version: 2.0.11-26102020
   - apiVersion: v1
     appVersion: 2.0.11-25102020
-    created: "2021-01-23T01:53:23.935280322Z"
+    created: "2021-01-24T01:55:21.992950906Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2435,7 +2458,7 @@ entries:
     version: 2.0.11-25102020
   - apiVersion: v1
     appVersion: 2.0.11-24102020
-    created: "2021-01-23T01:53:23.933881397Z"
+    created: "2021-01-24T01:55:21.991134379Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2447,7 +2470,7 @@ entries:
     version: 2.0.11-24102020
   - apiVersion: v1
     appVersion: 2.0.11-23102020
-    created: "2021-01-23T01:53:23.932228568Z"
+    created: "2021-01-24T01:55:21.989583356Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2459,7 +2482,7 @@ entries:
     version: 2.0.11-23102020
   - apiVersion: v1
     appVersion: 2.0.11-10222020
-    created: "2021-01-23T01:53:23.930305234Z"
+    created: "2021-01-24T01:55:21.987990333Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2471,7 +2494,7 @@ entries:
     version: 2.0.11-10222020
   - apiVersion: v1
     appVersion: 2.0.10
-    created: "2021-01-23T01:53:23.92894641Z"
+    created: "2021-01-24T01:55:21.98649191Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2483,7 +2506,7 @@ entries:
     version: 2.0.10
   - apiVersion: v1
     appVersion: 2.0.10-RC2
-    created: "2021-01-23T01:53:23.927608387Z"
+    created: "2021-01-24T01:55:21.984945887Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2495,7 +2518,7 @@ entries:
     version: 2.0.10-RC2
   - apiVersion: v1
     appVersion: 2.0.9
-    created: "2021-01-23T01:53:24.066129933Z"
+    created: "2021-01-24T01:55:22.141786614Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2507,7 +2530,7 @@ entries:
     version: 2.0.9
   - apiVersion: v1
     appVersion: 0.0.0-T261120201419
-    created: "2021-01-23T01:53:23.926213762Z"
+    created: "2021-01-24T01:55:21.983443265Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2519,7 +2542,7 @@ entries:
     version: 0.0.0-T261120201419
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY30112020
-    created: "2021-01-23T01:53:23.924880838Z"
+    created: "2021-01-24T01:55:21.981942043Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2531,7 +2554,7 @@ entries:
     version: 0.0.0-NIGHTLY30112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY29112020
-    created: "2021-01-23T01:53:23.923531815Z"
+    created: "2021-01-24T01:55:21.980327419Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2543,7 +2566,7 @@ entries:
     version: 0.0.0-NIGHTLY29112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY28112020
-    created: "2021-01-23T01:53:23.92214529Z"
+    created: "2021-01-24T01:55:21.97839779Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2555,7 +2578,7 @@ entries:
     version: 0.0.0-NIGHTLY28112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY27112020
-    created: "2021-01-23T01:53:23.920810066Z"
+    created: "2021-01-24T01:55:21.976438261Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2567,7 +2590,7 @@ entries:
     version: 0.0.0-NIGHTLY27112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY26112020
-    created: "2021-01-23T01:53:23.918625928Z"
+    created: "2021-01-24T01:55:21.974970339Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2579,7 +2602,7 @@ entries:
     version: 0.0.0-NIGHTLY26112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY25112020
-    created: "2021-01-23T01:53:23.916930298Z"
+    created: "2021-01-24T01:55:21.973402616Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2591,7 +2614,7 @@ entries:
     version: 0.0.0-NIGHTLY25112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY24112020
-    created: "2021-01-23T01:53:23.915578774Z"
+    created: "2021-01-24T01:55:21.971853493Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2603,7 +2626,7 @@ entries:
     version: 0.0.0-NIGHTLY24112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY23112020
-    created: "2021-01-23T01:53:23.91421195Z"
+    created: "2021-01-24T01:55:21.970383171Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2615,7 +2638,7 @@ entries:
     version: 0.0.0-NIGHTLY23112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY22112020
-    created: "2021-01-23T01:53:23.912855726Z"
+    created: "2021-01-24T01:55:21.968870448Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2627,7 +2650,7 @@ entries:
     version: 0.0.0-NIGHTLY22112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY21112020
-    created: "2021-01-23T01:53:23.911502402Z"
+    created: "2021-01-24T01:55:21.967393126Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2639,7 +2662,7 @@ entries:
     version: 0.0.0-NIGHTLY21112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY20112020
-    created: "2021-01-23T01:53:23.910150678Z"
+    created: "2021-01-24T01:55:21.965806703Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2651,7 +2674,7 @@ entries:
     version: 0.0.0-NIGHTLY20112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY19112020
-    created: "2021-01-23T01:53:23.908808754Z"
+    created: "2021-01-24T01:55:21.963711272Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2663,7 +2686,7 @@ entries:
     version: 0.0.0-NIGHTLY19112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY18122020
-    created: "2021-01-23T01:53:23.907103024Z"
+    created: "2021-01-24T01:55:21.961722342Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2675,7 +2698,7 @@ entries:
     version: 0.0.0-NIGHTLY18122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY18112020
-    created: "2021-01-23T01:53:23.905390594Z"
+    created: "2021-01-24T01:55:21.96023322Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2687,7 +2710,7 @@ entries:
     version: 0.0.0-NIGHTLY18112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY17122020
-    created: "2021-01-23T01:53:23.903802866Z"
+    created: "2021-01-24T01:55:21.958668297Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2699,7 +2722,7 @@ entries:
     version: 0.0.0-NIGHTLY17122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY17112020
-    created: "2021-01-23T01:53:23.902415041Z"
+    created: "2021-01-24T01:55:21.957042473Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2711,7 +2734,7 @@ entries:
     version: 0.0.0-NIGHTLY17112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY16122020
-    created: "2021-01-23T01:53:23.901053517Z"
+    created: "2021-01-24T01:55:21.955572851Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2723,7 +2746,7 @@ entries:
     version: 0.0.0-NIGHTLY16122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY14122020
-    created: "2021-01-23T01:53:23.899723894Z"
+    created: "2021-01-24T01:55:21.954045128Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2735,7 +2758,7 @@ entries:
     version: 0.0.0-NIGHTLY14122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY13122020
-    created: "2021-01-23T01:53:23.898351569Z"
+    created: "2021-01-24T01:55:21.952520206Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2747,7 +2770,7 @@ entries:
     version: 0.0.0-NIGHTLY13122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY13112020
-    created: "2021-01-23T01:53:23.897017646Z"
+    created: "2021-01-24T01:55:21.951025083Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2759,7 +2782,7 @@ entries:
     version: 0.0.0-NIGHTLY13112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY12122020
-    created: "2021-01-23T01:53:23.895667222Z"
+    created: "2021-01-24T01:55:21.949054954Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2771,7 +2794,7 @@ entries:
     version: 0.0.0-NIGHTLY12122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY12112020
-    created: "2021-01-23T01:53:23.894023893Z"
+    created: "2021-01-24T01:55:21.946919122Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2783,7 +2806,7 @@ entries:
     version: 0.0.0-NIGHTLY12112020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY11122020
-    created: "2021-01-23T01:53:23.892236761Z"
+    created: "2021-01-24T01:55:21.9454278Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2795,7 +2818,7 @@ entries:
     version: 0.0.0-NIGHTLY11122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY09122020
-    created: "2021-01-23T01:53:23.890630233Z"
+    created: "2021-01-24T01:55:21.943921278Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2807,7 +2830,7 @@ entries:
     version: 0.0.0-NIGHTLY09122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY08122020
-    created: "2021-01-23T01:53:23.889277409Z"
+    created: "2021-01-24T01:55:21.942353754Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2819,7 +2842,7 @@ entries:
     version: 0.0.0-NIGHTLY08122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY07122020
-    created: "2021-01-23T01:53:23.887963786Z"
+    created: "2021-01-24T01:55:21.94072003Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2831,7 +2854,7 @@ entries:
     version: 0.0.0-NIGHTLY07122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY06122020
-    created: "2021-01-23T01:53:23.886596062Z"
+    created: "2021-01-24T01:55:21.939254108Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2843,7 +2866,7 @@ entries:
     version: 0.0.0-NIGHTLY06122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY04122020
-    created: "2021-01-23T01:53:23.885262138Z"
+    created: "2021-01-24T01:55:21.937705585Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2855,7 +2878,7 @@ entries:
     version: 0.0.0-NIGHTLY04122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY02122020
-    created: "2021-01-23T01:53:23.883881514Z"
+    created: "2021-01-24T01:55:21.936098262Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2867,7 +2890,7 @@ entries:
     version: 0.0.0-NIGHTLY02122020
   - apiVersion: v1
     appVersion: 0.0.0-NIGHTLY01122020
-    created: "2021-01-23T01:53:23.88251859Z"
+    created: "2021-01-24T01:55:21.934195833Z"
     dependencies:
     - name: enterprise-suite
       repository: https://repo.lightbend.com/helm-charts/
@@ -2877,4 +2900,4 @@ entries:
     urls:
     - charts/cloudflow-enterprise-components-0.0.0-NIGHTLY01122020.tgz
     version: 0.0.0-NIGHTLY01122020
-generated: "2021-01-23T01:53:23.798937812Z"
+generated: "2021-01-24T01:55:21.824149498Z"
