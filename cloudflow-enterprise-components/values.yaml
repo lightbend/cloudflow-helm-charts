@@ -17,7 +17,7 @@ enterprise-suite:
   alpineImage: alpine
   busyboxImage: busybox
   esConsoleVersion: v1.4.10
-  esMonitorVersion: v1.2.5
+  esMonitorVersion: v1.2.6
   esGrafanaVersion: v0.5.0
   prometheusVersion: v2.21.0
   configMapReloadVersion: v0.4.0
