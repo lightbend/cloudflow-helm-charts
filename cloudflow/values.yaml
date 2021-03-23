@@ -23,7 +23,7 @@ cloudflow_operator:
     requestsMemory: "2G"
   ## JVM command line options
   jvm:
-    opts: -XX:MaxRAMPercentage=90.0 -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap
+    opts: -XX:MaxRAMPercentage=90.0 -XX:+UseContainerSupport
 
 # Named Kafka cluster settings
 kafkaClusters:
