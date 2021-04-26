@@ -1,7 +1,7 @@
 apiVersion: v1
 description: A Helm chart for installing Cloudflow
 name: cloudflow
-version: 2.0.25-NIGHTLY20210425
-appVersion: 2.0.25-NIGHTLY20210425
+version: 2.0.25-NIGHTLY20210426
+appVersion: 2.0.25-NIGHTLY20210426
 home: https://cloudflow.io
 icon: https://cloudflow.io/_/img/cloudflow-icon-full-color-flush.svg
