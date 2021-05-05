@@ -1,4 +1,4 @@
 dependencies:
   - name: enterprise-suite
-    version: 1.2.12
+    version: 1.2.15
     repository: https://repo.lightbend.com/helm-charts/
