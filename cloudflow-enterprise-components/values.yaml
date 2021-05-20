@@ -1,7 +1,7 @@
 serviceAccount: cloudflow-operator
 enterpriseOperator:
   image: commercial-registry.lightbend.com/lightbend-cloudflow-enterprise-operator
-  version: 2.1.0-NIGHTLY20210519
+  version: 2.1.0-NIGHTLY20210520
 enterprise-suite:
   enableElasticsearch: false
   deploymentApiVersion: apps/v1
