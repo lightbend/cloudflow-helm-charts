@@ -4,7 +4,7 @@ This guide shows how to release a new version of the Cloudflow Helm charts.
 
 Make sure that you have Helm v3 or later installed before proceeding.
 
-1. Checkout the repo, create a new branch from the master branch
+1. Checkout the repo, create a new branch from the main branch
 1. Make any changes needed to the Helm chart.
 1. Make sure to update both the `version` and `appVersion` in the `Chart.yaml` file.
 1. Package the new version using the following command:
