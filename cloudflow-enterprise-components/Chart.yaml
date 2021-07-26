@@ -1,4 +1,4 @@
 name: cloudflow-enterprise-components
 apiVersion: v1
-version: 2.2.0-SNAP
-appVersion: 2.2.0-SNAP
+version: 2.2.0-RC3
+appVersion: 2.2.0-RC3
