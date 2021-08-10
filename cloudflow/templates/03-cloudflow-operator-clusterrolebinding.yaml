@@ -7,7 +7,7 @@ metadata:
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
-  name: cluster-admin
+  name: {{ .Values.cloudflow_operator.name }}
 subjects:
   - kind: ServiceAccount
     name: cloudflow-operator
