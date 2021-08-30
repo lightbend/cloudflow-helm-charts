@@ -34,6 +34,10 @@ spec:
           env:
             - name: JAVA_OPTS
               value: {{ .Values.cloudflow_operator.jvm.opts }}
+{{- if (.Values.cloudflow_operator.controlled_namespace) }}
+            - name: CONTROLLED_NAMESPACE
+              value: "{{ .Values.cloudflow_operator.controlled_namespace }}"
+{{- end }}
             - name: KAFKA_BOOTSTRAP_SERVERS
               value: "{{.Values.kafkaClusters.default.bootstrapServers}}"
             - name: AKKA_RUNNER_REQUESTS_MEMORY
