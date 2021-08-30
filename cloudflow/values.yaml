@@ -24,6 +24,7 @@ cloudflow_operator:
   ## JVM command line options
   jvm:
     opts: -XX:MaxRAMPercentage=90.0 -XX:+UseContainerSupport
+  controlled_namespace: null
 
 # Named Kafka cluster settings
 kafkaClusters:

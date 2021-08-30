@@ -2,6 +2,9 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
   name: {{ .Values.cloudflow_operator.name }}
+{{- if (.Values.cloudflow_operator.controlled_namespace) }}
+  namespace: {{ .Values.cloudflow_operator.controlled_namespace }}
+{{- end }}
   labels:
 {{- include "cloudflow.labels" . | indent 4 }}
 
