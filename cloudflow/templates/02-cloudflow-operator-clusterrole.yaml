@@ -19,7 +19,7 @@ rules:
       - watch
       - create
 
-  # The cloudflow-operator needs to access and manage the Akka Microservices CRD
+  # The cloudflow-operator needs to access and manage the Cloudflow CRD
   - apiGroups:
       - "cloudflow.lightbend.com"
     resources:
