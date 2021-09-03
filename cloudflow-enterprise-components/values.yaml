@@ -1,4 +1,4 @@
-serviceAccount: cloudflow-operator
+serviceAccount: cloudflow-enterprise-operator
 enterpriseOperator:
   image: commercial-registry.lightbend.com/lightbend-cloudflow-enterprise-operator
   version: 2.2.2-NIGHTLY20210903
