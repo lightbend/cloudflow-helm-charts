@@ -1,4 +1,4 @@
 name: cloudflow-enterprise-components
 apiVersion: v1
-version: 2.2.2-NIGHTLY20220124
-appVersion: 2.2.2-NIGHTLY20220124
+version: 2.3.0
+appVersion: 2.3.0
