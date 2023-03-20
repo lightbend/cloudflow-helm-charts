@@ -1,3 +1,10 @@
+## Deprecated - The Cloudflow project is deprecated
+
+```
+If you are an existing customer of Lightbend and we have not contacted, please reach out to support.
+All existing contacts will be honored and assistance with migration to new tools is available.
+```
+
 [![Artifact HUB](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/cloudflow-helm-charts)](https://artifacthub.io/packages/search?repo=cloudflow-helm-charts)
 
 # Cloudflow Helm charts
