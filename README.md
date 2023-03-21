@@ -2,21 +2,21 @@
 
 ```
 If you are an existing customer of Lightbend and we have not contacted, please reach out to support.
-All existing contacts will be honored and assistance with migration to new tools is available.
+All existing contracts will be honored and assistance with migration to new tools is available.
 ```
 
 [![Artifact HUB](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/cloudflow-helm-charts)](https://artifacthub.io/packages/search?repo=cloudflow-helm-charts)
 
 # Cloudflow Helm charts
 
-This repository contains Helm charts for the [Cloudflow](https://cloudflow.io) project. 
+This repository contains Helm charts for the [Cloudflow](https://cloudflow.io) project.
 
 ## Usage
 
 Add this repository using the following commands:
 
 ```
-helm repo add cloudflow-helm-charts https://lightbend.github.io/cloudflow-helm-charts/ 
+helm repo add cloudflow-helm-charts https://lightbend.github.io/cloudflow-helm-charts/
 helm repo update
 ```
 
